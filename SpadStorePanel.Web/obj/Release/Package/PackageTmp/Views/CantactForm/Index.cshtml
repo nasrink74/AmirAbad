@@ -1,0 +1,238 @@
+﻿@model SpadStorePanel.Web.ViewModels.FooterViewModel
+@{
+
+    Layout = "~/Views/Shared/_LayoutD.cshtml";
+}
+
+
+<div id="preloader"></div>
+<!--Header-->
+@Html.Action("HeaderSection", "Home")
+@Html.Action("ProductGroup", "Home")
+<!--End Header-->
+<header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs">
+    <div class="container">
+        <h1>تماس با ما</h1>
+        <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+            <!-- Breadcrumb NavXT 6.2.1 -->
+            <li class="home">
+                <span property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage"
+                       title="Go to Home." href="index.html"
+                       class="home"><span property="name">خانه</span></a><meta property="position" content="1">
+                </span>
+            </li>
+            <li class="post post-page current-item">
+                <span property="itemListElement" typeof="ListItem">
+                    <span property="name">تماس با ما</span><meta property="position" content="2">
+                </span>
+            </li>
+        </ul>
+    </div>
+</header>
+<div class="container main-wrapper">
+    <!-- Content -->
+    <div class="inner-page text-page margin-top">
+        <div class="row">
+            <div class=" col-md-12 text-page">
+                <article id="post-25" class="post-25 page type-page status-publish hentry">
+                    <div class="entry-content clearfix" id="entry-div">
+                        <section data-vc-full-width="true" data-vc-full-width-init="false" class="vc_section">
+                            <div class="vc_row wpb_row vc_row-fluid vc_row-o-content-top vc_row-flex">
+                                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-md-6">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="heading  header-inline align-left color-black transform-default icon-type-hidden   vc_custom_1526907454352 heading-tag-h4"
+                                                 id="like_sc_header_1573783164">
+                                                <h4 class="header ltx-sr-id-like_sc_header_15737831641315380940 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-0 ltx-sr-duration-1000 ltx-sr-sequences-0">
+                                                    تماس با ما
+                                                </h4>
+                                            </div>
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <p>
+                                                     @Model.ConstText
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                            <div class="align-default ">
+                                                <ul class="social-icons-list   vc_custom_1526908541834 icon-weight-bold"
+                                                    id="like_sc_header_1005929713">
+                                                    <li class=" ">
+                                                        <span class="fa fa-phone"></span><span class="head">@Model.Phone</span>
+                                                    </li>
+                                                    <li class=" ">
+                                                        <span class="fa fa-envelope"></span><span class="head">@Html.Raw(Model.Email)</span>
+                                                    </li>
+                                                    <li class=" ">
+                                                        <span class="fa fa-map-marker"></span><span class="head">@Html.Raw(Model.Address)</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="align-default ">
+                                                <ul class="social-big icon-weight-bold" id="like_sc_header_147764413">
+                                                    <li><a href="#" class="ltx-social-color fa fa-facebook"></a></li>
+                                                    <li><a href="#" class="ltx-social-color fa fa-twitter"></a></li>
+                                                    <li><a href="#" class="ltx-social-color fa fa-youtube"></a></li>
+                                                    <li><a href="#" class="ltx-social-color fa fa-instagram"></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-md-6 vc_col-has-fill">
+                                    <div class="vc_column-inner vc_custom_1518129269758 pt-0">
+                                        <div class="wpb_wrapper">
+                                            <div class="es-resp">
+                                                <div class="visible-xl" style="height: 0px;"></div>
+                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                     style="height: 0px;"></div>
+                                                <div class="visible-md" style="height: 0px;"></div>
+                                                <div class="visible-sm " style="height: 48px;"></div>
+                                                <div class="visible-ms" style="height: 48px;"></div>
+                                                <div class="visible-xs" style="height: 48px;"></div>
+                                            </div>
+                                            <div class="heading  header-inline align-left color-black subcolor-main transform-default icon-type-hidden   vc_custom_1526908468521 heading-tag-h4"
+                                                 id="like_sc_header_696176229">
+                                                <h4 class="header ltx-sr-id-like_sc_header_696176229924997709 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-0 ltx-sr-duration-1000 ltx-sr-sequences-0">
+                                                    ساعات کاری
+                                                </h4>
+                                            </div>
+                                            <div class="wpb_text_column wpb_content_element ">
+                                                <div class="wpb_wrapper">
+                                                    <p>
+                                                        <span class="line-height-2">
+                                                            <strong>شنبه:</strong> @Model.WorkTime<br />
+                                                            <strong>یک شنبه:</strong> @Model.WorkTime<br />
+                                                            <strong>دو شنبه :</strong> @Model.WorkTime<br />
+                                                            <strong>سه شنبه:</strong> @Model.WorkTime<br />
+                                                            <strong>چهار شنبه:</strong> @Model.WorkTime<br />
+                                                            <strong>پنج شنبه:</strong> @Model.WorkTime<br />
+                                                            <strong>جمعه:</strong> بسته است<br />
+                                                        </span>
+                                                    </p>
+
+                                                </div>
+                                            </div>
+                                            <div class="es-resp">
+                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                     style="height: 28px;"></div>
+                                                <div class="visible-md" style="height: 28px;"></div>
+                                                <div class="visible-sm " style="height: 28px;"></div>
+                                                <div class="visible-ms" style="height: 28px;"></div>
+                                                <div class="visible-xs" style="height: 28px;"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-4 vc_col-md-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="es-resp">
+                                                <div class="visible-xl" style="height: 0px;"></div>
+                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                     style="height: 0px;"></div>
+                                                <div class="visible-md" style="height: 16px;"></div>
+                                                <div class="visible-sm " style="height: 16px;"></div>
+                                                <div class="visible-ms" style="height: 16px;"></div>
+                                                <div class="visible-xs" style="height: 32px;"></div>
+                                            </div>
+                                            <div class="ltx-contact-form-7 transform-default form-center form-gray form-bg-gray form-style-default form-btn-default form-btn-default form-padding-default    vc_custom_1526907539863"
+                                                 id="like_sc_contact_form_7_101074569">
+                                                <div role="form" class="wpcf7" id="wpcf7-f1555-p25-o1" lang="en-US"
+                                                     dir="ltr">
+                                                    <div class="screen-reader-response"></div>
+
+                                                    @Html.Action("FormCantact", "CantactForm")
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="vc_row wpb_row vc_row-fluid">
+                                <div class="wpb_column vc_column_container vc_col-sm-12">
+                                    <div class="vc_column-inner">
+                                        <div class="wpb_wrapper">
+                                            <div class="vc_empty_space" style="height: 72px">
+                                                <span class="vc_empty_space_inner"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mapouter">
+                                <div class="gmap_canvas">
+                                    @Html.Raw(Model.Map)
+                                   <br>
+                                    <style>
+                                        .mapouter {
+                                            position: relative;
+                                            text-align: right;
+                                            height: 500px;
+                                            width: 100%;
+                                        }
+                                    </style>
+                                    <style>
+                                        .gmap_canvas {
+                                            overflow: hidden;
+                                            background: none !important;
+                                            height: 500px;
+                                            width: 100%;
+                                        }
+                                    </style>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                        </section>
+                        <div class="vc_row-full-width vc_clearfix"></div>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+@section script
+{
+    <script>
+        function submitForm() {
+            // Initiate Variables With Form Content
+
+            var email = $("#emailll").val();
+            var name = $("#first-name").val();
+            var message = $("#description").val();
+            var subject = $("#subject").val();
+            //var phone = $("#phone").val();
+
+            jQuery.ajax({
+                type: "POST",
+                url: "/CantactForm/ContactUS",
+                data: "email=" + email + "&name=" + name + "&message=" + message + "&subject=" + subject + "&phone=" + "093333333",
+                success: function (text) {
+                    if (text == "success") {
+
+                        $("#submitButton").css("background-color", "green");
+                        $("#submitButton").val("ثبت شد");
+                        $("#emailll").val("");
+                        $("#first-name").val("");
+                        $("#description").val("");
+                        $("#subject").val("");
+                        //$("#phone").val("");
+
+                    } else {
+                        $("#submitButton").css("background-color", "red");
+                        $("#submitButton").val("خطا");
+                    }
+                }
+            });
+        }
+    </script>
+
+}

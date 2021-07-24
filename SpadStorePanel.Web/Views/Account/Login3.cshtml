@@ -1,0 +1,303 @@
+﻿@using SpadStorePanel.Web.ViewModels
+@using Microsoft.AspNet.Identity
+@model LoginViewModel
+@{
+    Layout = "/Views/Shared/_LayoutD.cshtml";
+}
+
+<div class="page-wrapper">
+
+    @Html.Action("HeaderSection", "Home")
+
+    <main class="main">
+        @if (Request.IsAuthenticated)
+        {
+            @Html.Action("CheckOut", "Cookie")
+        }
+        else
+        {
+            <div class="login-page bg-image pt-8 pb-8 pt-md-12 pb-md-12 pt-lg-17 pb-lg-17"
+                 style="background-image: url(../../Content/client/pic/bgmedi2.jpg)">
+                <div class="container">
+                    <div class="form-box">
+                        <div class="form-tab">
+                            <ul class="nav nav-pills nav-fill" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link" id="signin-tab-2" data-toggle="tab" href="#signin-2" role="tab"
+                                       aria-controls="signin-2" aria-selected="true">ورود</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="register-tab-2" data-toggle="tab" href="#register-2"
+                                       role="tab" aria-controls="register-2" aria-selected="false">ثبت نام</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade" id="signin-2" role="tabpanel" aria-labelledby="signin-tab-2">
+                                    @using (Html.BeginForm("Login3", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post))
+                                    {
+                                        @Html.AntiForgeryToken()
+                                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+                                        <div class="form-group">
+                                            <label for="singin-email-2">نام کاربری یا آدرس ایمیل *</label>
+                                            @Html.TextBoxFor(m => m.UserName, new { @class = "form-control h-auto form-control-solid py-4 px-8", placeholder = "نام کاربری", autocomplete = "off", @id = "singin-email-2", @name = "singin-email" })
+                                            @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-group">
+                                            <label for="singin-password-2">رمز عبور *</label>
+                                            @Html.TextBoxFor(m => m.Password, new
+                                       {
+                                           @class = "form-control h-auto form-control-solid py-4 px-8",
+                                           type = "Password",
+                                           placeholder = "رمز عبور",
+                                           autocomplete = "off",
+                                           @id = "singin-password-2",
+                                           @name = "singin-password"
+                                       })
+                                            @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-footer">
+                                            <button type="submit" class="btn btn-outline-primary-2">
+                                                <span>ورود</span>
+                                                <i class="icon-long-arrow-left"></i>
+                                            </button>
+
+                                            <div class="custom-control custom-checkbox">
+                                                <label for="signin-remember-2" class="custom-control-label">
+                                                    @Html.CheckBoxFor(model => model.RememberMe, new
+                                               {
+                                                   @class = "custom-control-input",
+                                                   @id = "signin-remember-2"
+                                               })
+                                                    <span class="ml-2"></span>
+                                                    مرا به خاطر بسپار
+                                                </label>
+                                            </div>
+
+
+                                            <a href="/Account/ForgotPassword" id="kt_login_forgot" class="forgot-link">رمز عبور خود را فراموش کرده اید؟</a>
+
+                                        </div><!-- End .form-footer -->
+                                    }
+
+
+
+                                    @*<div class="form-choice">
+                                        <p class="text-center">یا ورود با </p>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-g">
+                                                    <i class="icon-google"></i>
+                                                    حساب کاربری گوگل
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-f">
+                                                    <i class="icon-facebook-f"></i>
+                                                    حساب کاربری فیسبوک
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                        </div><!-- End .row -->
+                                    </div>*@<!-- End .form-choice -->
+                                </div><!-- .End .tab-pane -->
+
+
+
+                                <div class="tab-pane fade show active" id="register-2" role="tabpanel"
+                                     aria-labelledby="register-tab-2">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <label for="register-email-2">آدرس ایمیل شما *</label>
+                                            <input type="email" class="form-control" id="register-email-2"
+                                                   name="register-email" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-group">
+                                            <label for="register-password-2">رمز عبور *</label>
+                                            <input type="password" class="form-control" id="register-password-2"
+                                                   name="register-password" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-footer">
+                                            <button type="submit" class="btn btn-outline-primary-2">
+                                                <span>ثبت نام</span>
+                                                <i class="icon-long-arrow-left"></i>
+                                            </button>
+
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input"
+                                                       id="register-policy-2" required>
+                                                <label class="custom-control-label" for="register-policy-2">
+                                                    من با <a href="#">قوانین و مقررات</a> موافقم *
+                                                </label>
+                                            </div><!-- End .custom-checkbox -->
+                                        </div><!-- End .form-footer -->
+                                    </form>
+                                    <div class="form-choice">
+                                        <p class="text-center">یا ورود با </p>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-g">
+                                                    <i class="icon-google"></i>
+                                                    حساب کاربری گوگل
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login  btn-f">
+                                                    <i class="icon-facebook-f"></i>
+                                                    حساب کاربری فیسبوک
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                        </div><!-- End .row -->
+                                    </div><!-- End .form-choice -->
+                                </div><!-- .End .tab-pane -->
+
+                            </div><!-- End .tab-content -->
+                        </div><!-- End .form-tab -->
+                    </div><!-- End .form-box -->
+                </div><!-- End .container -->
+            </div><!-- End .login-page section-bg -->
+        }
+    </main><!-- End .main -->
+
+
+</div><!-- End .page-wrapper -->
+<button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+<div class="mobile-menu-container mobile-menu-light">
+    @Html.Action("HeaderMobile", "Home")
+</div><!-- End .mobile-menu-container -->
+<!-- Sign in / Register Modal -->
+<div class="modal fade" id="signin-modal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true"><i class="icon-close"></i></span>
+                </button>
+
+                <div class="form-box">
+                    <div class="form-tab">
+                        <ul class="nav nav-pills nav-fill nav-border-anim" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active" id="signin-tab" data-toggle="tab" href="#signin"
+                                   role="tab" aria-controls="signin" aria-selected="true">ورود</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab"
+                                   aria-controls="register" aria-selected="false">ثبت نام</a>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="tab-content-5">
+                            <div class="tab-pane fade show active" id="signin" role="tabpanel"
+                                 aria-labelledby="signin-tab">
+                                <form action="#">
+                                    <div class="form-group">
+                                        <label for="singin-email">نام کاربری یا آدرس ایمیل *</label>
+                                        <input type="text" class="form-control" id="singin-email"
+                                               name="singin-email" required>
+                                    </div><!-- End .form-group -->
+
+                                    <div class="form-group">
+                                        <label for="singin-password">رمز عبور *</label>
+                                        <input type="password" class="form-control" id="singin-password"
+                                               name="singin-password" required>
+                                    </div><!-- End .form-group -->
+
+                                    <div class="form-footer">
+                                        <button type="submit" class="btn btn-outline-primary-2">
+                                            <span>ورود</span>
+                                            <i class="icon-long-arrow-left"></i>
+                                        </button>
+
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input"
+                                                   id="signin-remember">
+                                            <label class="custom-control-label" for="signin-remember">
+                                                مرا به خاطر
+                                                بسپار
+                                            </label>
+                                        </div><!-- End .custom-checkbox -->
+
+                                        <a href="#" class="forgot-link">فراموشی رمز عبور؟</a>
+                                    </div><!-- End .form-footer -->
+                                </form>
+                                <div class="form-choice">
+                                    <p class="text-center">یا ورود با</p>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <a href="#" class="btn btn-login btn-g">
+                                                <i class="icon-google"></i>
+                                                حساب گوگل
+                                            </a>
+                                        </div><!-- End .col-6 -->
+                                        <div class="col-sm-6">
+                                            <a href="#" class="btn btn-login btn-f">
+                                                <i class="icon-facebook-f"></i>
+                                                حساب فیسبوک
+                                            </a>
+                                        </div><!-- End .col-6 -->
+                                    </div><!-- End .row -->
+                                </div><!-- End .form-choice -->
+                            </div><!-- .End .tab-pane -->
+                            <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                                <form action="#">
+                                    <div class="form-group">
+                                        <label for="register-email">آدرس ایمیل شما *</label>
+                                        <input type="email" class="form-control" id="register-email"
+                                               name="register-email" required>
+                                    </div><!-- End .form-group -->
+
+                                    <div class="form-group">
+                                        <label for="register-password">رمز عبور *</label>
+                                        <input type="password" class="form-control" id="register-password"
+                                               name="register-password" required>
+                                    </div><!-- End .form-group -->
+
+                                    <div class="form-footer">
+                                        <button type="submit" class="btn btn-outline-primary-2">
+                                            <span>ثبت نام</span>
+                                            <i class="icon-long-arrow-left"></i>
+                                        </button>
+
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="register-policy"
+                                                   required>
+                                            <label class="custom-control-label" for="register-policy">
+                                                با
+                                                <a href="#">قوانین و مقررات </a>موافقم *
+                                            </label>
+                                        </div><!-- End .custom-checkbox -->
+                                    </div><!-- End .form-footer -->
+                                </form>
+                                <div class="form-choice">
+                                    <p class="text-center">یا عضویت با</p>
+                                    <div class="row">
+                                        <div class="col-sm-6">
+                                            <a href="#" class="btn btn-login btn-g">
+                                                <i class="icon-google"></i>
+                                                حساب گوگل
+                                            </a>
+                                        </div><!-- End .col-6 -->
+                                        <div class="col-sm-6">
+                                            <a href="#" class="btn btn-login  btn-f">
+                                                <i class="icon-facebook-f"></i>
+                                                حساب فیسبوک
+                                            </a>
+                                        </div><!-- End .col-6 -->
+                                    </div><!-- End .row -->
+                                </div><!-- End .form-choice -->
+                            </div><!-- .End .tab-pane -->
+                        </div><!-- End .tab-content -->
+                    </div><!-- End .form-tab -->
+                </div><!-- End .form-box -->
+            </div><!-- End .modal-body -->
+        </div><!-- End .modal-content -->
+    </div><!-- End .modal-dialog -->
+</div><!-- End .modal -->

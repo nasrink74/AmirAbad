@@ -1,0 +1,103 @@
+﻿@model IEnumerable<SpadStorePanel.Infrastructure.Dtos.Product.ProductWithPriceDto>
+<section data-vc-full-width="true" data-vc-full-width-init="false"
+         class="vc_section vc_custom_1539268211587 ltx-sr ltx-sr-effect-fade_in ltx-sr-id-99745865 ltx-sr-el-items ltx-sr-delay-200 ltx-sr-duration-500 ltx-sr-sequences-200">
+    <div class="vc_row wpb_row vc_row-fluid">
+        <div class="wpb_column vc_column_container vc_col-sm-12">
+            <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                    <div class="es-resp">
+                        <div class="visible-xl" style="height: 80px;"></div>
+                        <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                             style="height: 64px;"></div>
+                        <div class="visible-md" style="height: 64px;"></div>
+                        <div class="visible-sm " style="height: 64px;"></div>
+                        <div class="visible-ms" style="height: 48px;"></div>
+                        <div class="visible-xs" style="height: 48px;"></div>
+                    </div>
+                    <div class="heading  default align-center color-black subcolor-main transform-default has-subheader icon-type-hidden   vc_custom_1541378176591 heading-tag-h2"
+                         id="like_sc_header_657513521">
+                        <h6 class="subheader ltx-sr-id-like_sc_header_657513521703520893 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-100 ltx-sr-duration-300 ltx-sr-sequences-50">
+                            داروخانه مجازی
+                        </h6>
+                        <h2 class="header ltx-sr-id-like_sc_header_6575135211859176616 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-0 ltx-sr-duration-1000 ltx-sr-sequences-0">
+                            پر فروش ترین محصولات
+                        </h2>
+                    </div>
+                    <div class="es-resp">
+                        <div class="visible-xl" style="height: 36px;"></div>
+                        <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                             style="height: 36px;"></div>
+                        <div class="visible-md" style="height: 36px;"></div>
+                        <div class="visible-sm " style="height: 36px;"></div>
+                        <div class="visible-ms" style="height: 36px;"></div>
+                        <div class="visible-xs" style="height: 36px;"></div>
+                    </div>
+                    <div class="woocommerce">
+                        <ul class="products products-sc products-sc-simple columns-4 posts-4 ">
+                            @if (Model.Count() != 0)
+                            {
+                                foreach (var item in Model)
+                                {
+                                    <li id="post-5568"
+                                        class="post-5569 product type-product status-publish has-post-thumbnail product_cat-neurosurgery product_tag-cardiology product_tag-urology last instock featured shipping-taxable purchasable product-type-simple">
+
+                                        <div class="item">
+                                            <a href="/Shop/Detail/@item.Id">
+                                                <div class="image">
+                                                    <img width="340" height="340"
+                                                         src="~/Files/ProductImages/Image/@item.Image"
+                                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                                         alt=""
+                                                         sizes="(max-width: 340px) 100vw, 340px" />
+                                                </div>
+                                                <h2 class="woocommerce-loop-product__title">
+                                                    @item.ShortTitle
+                                                </h2>
+                                            </a>
+                                            @*<div class="post_content entry-content">
+                                                امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است
+                                            </div>*@
+                                            <span class="price">
+                                                <span class="woocommerce-Price-amount amount">
+                                                    <span class="woocommerce-Price-currencySymbol">&#36;</span>@item.Price
+                                                </span>
+                                            </span>
+                                            @*<a data-quantity="1"
+                                               class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                                               data-product_id="5569" data-product_sku=""
+                                               aria-label="Add &ldquo;Pain pills 12 tabs&rdquo; to your cart"
+                                               rel="nofollow">اضافه کردن به سبد خرید</a>*@
+                                        </div>
+                                    </li>
+                                }
+                            }
+                        </ul>
+                    </div>
+                    <div class="es-resp">
+                        <div class="visible-xl" style="height: 32px;"></div>
+                        <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                             style="height: 32px;"></div>
+                        <div class="visible-md" style="height: 32px;"></div>
+                        <div class="visible-sm " style="height: 32px;"></div>
+                        <div class="visible-ms" style="height: 32px;"></div>
+                        <div class="visible-xs" style="height: 32px;"></div>
+                    </div>
+                    <div class="btn-wrap align-center">
+                        <a href="/Shop"
+                           class="btn  btn-black color-hover-default align-center   vc_custom_1541427735119"
+                           id="like_sc_button_1416610502">محصولات بیشتر</a>
+                    </div>
+                    <div class="es-resp">
+                        <div class="visible-xl" style="height: 32px;"></div>
+                        <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                             style="height: 32px;"></div>
+                        <div class="visible-md" style="height: 32px;"></div>
+                        <div class="visible-sm " style="height: 32px;"></div>
+                        <div class="visible-ms" style="height: 32px;"></div>
+                        <div class="visible-xs" style="height: 32px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

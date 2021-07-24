@@ -1,0 +1,64 @@
+﻿<div class="comments-form-wrap">
+    <a class="anchor" id="comments-form"></a>
+    <div class="comments-form anchor">
+        <div id="respond" class="comment-respond">
+            <h3 id="reply-title" class="comment-reply-title font-weight-bold">
+                نظرات
+                خود
+                را بنویسید<small>
+                    <a rel="nofollow" id="cancel-comment-reply-link"
+                       href="blog-details.html#respond"
+                       style="display:none;">
+                        انصراف
+                        reply
+                    </a>
+                </small>
+            </h3>
+            <form method="post" id="commentform" class="comment-form" novalidate=""
+                  style="padding: 40px 40px !important">
+                <input type="hidden" id="ProductId" name="ProductId" value="@ViewBag.ProductId">
+                <div class="row">
+                    <div class="comments-field comments_author col-sm-6">
+                        <label for="author" class="required">Name</label><input name="namepr" id="namepr"
+                                                                                type="text"
+                                                                                placeholder="نام *"
+                                                                                value=""
+                                                                                size="30"
+                                                                                aria-required="true">
+                    </div>
+                    <div class="comments-field comments_email col-sm-6">
+                        <label for="email" class="required">Email</label><input name="emailpr"
+                                                                                id="emailpr"
+                                                                                type="text"
+                                                                                placeholder="ایمیل *"
+                                                                                value=""
+                                                                                size="30"
+                                                                                aria-required="true">
+                    </div>
+                </div>
+                <div class="comments-field comments_message">
+                    <label for="comment"
+                           class="required">
+                        Your
+                        Message
+                    </label><textarea id="messagepr" name="messagepr"
+                                      placeholder="نظرات خود را بنویسید"
+                                      aria-required="true"></textarea>
+                </div>
+
+                <p class="form-submit">
+                    <span class="ltx-btn-wrap">
+                        <input name="submit"
+                               type="button"
+                               class="submit btn btn-default"
+                               value="ثبت کردن" id="submitButtonpr" onclick="submitFormpr()">
+                    </span>
+                    <input type="hidden" name="comment_post_ID" value="6615"
+                           id="comment_post_ID">
+                    <input type="hidden" name="comment_parent" id="comment_parent"
+                           value="0">
+                </p>
+            </form>
+        </div><!-- #respond -->
+    </div>
+</div>

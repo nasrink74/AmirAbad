@@ -1,0 +1,47 @@
+﻿
+<div class="comments-form-wrap">
+    <a class="anchor" id="comments-form"></a>
+    <div class="comments-form anchor">
+        <div id="respond" class="comment-respond">
+            <input type="hidden" id="ArticleId" name="ArticleId" value="@ViewBag.ArticleId">
+            <h3 id="reply-title" class="comment-reply-title">
+                نظرات خود را بنویسید<small>
+                    <a rel="nofollow" id="cancel-comment-reply-link"
+                       href="blog-details.html#respond" style="display:none;">
+                        انصراف
+                        reply
+                    </a>
+                </small>
+            </h3>
+            <form method="post"
+                  id="commentform" class="comment-form" novalidate>
+                <div class="row">
+                    <div class="comments-field comments_author col-sm-6">
+                        <label for="author"
+                               class="required">Name</label><input id="name" name="name" type="text" placeholder="نام *" value=""
+                                                                   size="30" aria-required="true" />
+                    </div>
+                    <div class="comments-field comments_email col-sm-6">
+                        <label for="email"
+                               class="required">Email</label><input id="email3" name="email3" type="text" placeholder="ایمیل *" value=""
+                                                                    size="30" aria-required="true" />
+                    </div>
+                </div>
+                <div class="comments-field comments_message">
+                    <label for="comment"
+                           class="required">
+                        Your
+                        Message
+                    </label><textarea id="message" name="message" placeholder="نظرات خود را بنویسید"
+                                      aria-required="true"></textarea>
+                </div>
+
+                <p class="form-submit">
+                    <input type="button" id="submitButton" onclick="submitForm()"
+                           value="ثبت کردن" /> <input type='hidden' name='comment_post_ID' value='6615' id='comment_post_ID' />
+                    <input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+                </p>
+            </form>
+        </div><!-- #respond -->
+    </div>
+</div>

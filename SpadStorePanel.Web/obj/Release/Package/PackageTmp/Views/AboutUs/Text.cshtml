@@ -1,0 +1,20 @@
+﻿@model IEnumerable<SpadStorePanel.Core.Models.StaticContentDetail>
+
+
+@foreach (var item in Model)
+{
+    <div class="col-lg-4 col-sm-6">
+        <div class="icon-box icon-box-sm text-center">
+            <span class="icon-box-icon">
+                @*<i class="icon-puzzle-piece"></i>*@
+            </span>
+            <div class="icon-box-content">
+                <h3 class="icon-box-title">@item.Title</h3><!-- End .icon-box-title -->
+                <p class="text-center">
+                @item.ShortDescription
+                </p>
+            </div><!-- End .icon-box-content -->
+        </div><!-- End .icon-box -->
+    </div><!-- End .col-lg-4 col-sm-6 -->
+}
+

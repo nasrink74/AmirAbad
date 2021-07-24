@@ -1,0 +1,442 @@
+﻿@model SpadStorePanel.Web.ViewModels.ProductDetailViewModel
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en-US">
+
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>امیر آباد</title>
+    <link rel='stylesheet' id='contact-form-7-css'
+          href='~/Content/client/assets/plugins/contact-form-7/includes/css/styles1748.css?ver=5.0.5' type='text/css' media='all' />
+
+    <link rel='stylesheet' id='lt-custom-css' href='~/Content/client/assets/plugins/lt-custom/css/lt-custom5152.css?ver=1.0'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='woocommerce-smallscreen-css'
+          href='~/Content/client/assets/plugins/woocommerce/assets/css/woocommerce-smallscreen9d52.css?ver=3.5.1' type='text/css'
+          media='only screen and (max-width: 768px)' />
+    <link rel='stylesheet' id='woocommerce-general-css'
+          href='~/Content/client/assets/plugins/woocommerce/assets/css/woocommerce9d52.css?ver=3.5.1' type='text/css' media='all' />
+    <link rel='stylesheet' id='bootstrap-css' href='~/Content/client/assets/themes/drug-store/assets/css/bootstrap-grid5152.css?ver=1.0'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='holamed-plugins-css-css'
+          href='~/Content/client/assets/themes/drug-store/assets/css/pluginsb34d.css?ver=1.7.4' type='text/css' media='all' />
+    <link rel='stylesheet' id='holamed-theme-style-css' href='~/Content/client/assets/themes/drug-store/styleb34d.css?ver=1.7.4'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='js_composer_front-css'
+          href='~/Content/client/assets/plugins/js_composer/assets/css/js_composer.min24b2.css?ver=5.5.5' type='text/css'
+          media='all' />
+
+    <link rel='stylesheet' id='fw-option-type-icon-v2-pack-linecons-css'
+          href='~/Content/client/assets/plugins/unyson/framework/static/libs/linecons/css/lineconsc47d.css?ver=2.7.20'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='fw-option-type-icon-v2-pack-font-awesome-css'
+          href='~/Content/client/assets/plugins/unyson/framework/static/libs/font-awesome/css/font-awesome.minc47d.css?ver=2.7.20'
+          type='text/css' media='all' />
+    <link rel='stylesheet' id='fw-option-type-icon-v2-pack-entypo-css'
+          href='~/Content/client/assets/plugins/unyson/framework/static/libs/entypo/css/entypoc47d.css?ver=2.7.20' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='fw-option-type-icon-v2-pack-linearicons-css'
+          href='~/Content/client/assets/plugins/unyson/framework/static/libs/lnr/css/lnrc47d.css?ver=2.7.20' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='fw-option-type-icon-v2-pack-typicons-css'
+          href='~/Content/client/assets/plugins/unyson/framework/static/libs/typcn/css/typcnc47d.css?ver=2.7.20' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='fw-option-type-icon-v2-pack-unycon-css'
+          href='~/Content/client/assets/plugins/unyson/framework/static/libs/unycon/unyconc47d.css?ver=2.7.20' type='text/css'
+          media='all' />
+    <link rel='stylesheet' id='holamed_google_fonts-css'
+          href='http://fonts.googleapis.com/css?family=Lora:400,400i,700%7CNiramit:700%7CShare+Tech+Mono&amp;subset=latin'
+          type='text/css' media='all' />
+    <script type='text/javascript' src='~/Content/client/includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+    <script type='text/javascript' src='~/Content/client/includes/js/jquery/jquery-migrate.min330a.js?ver=1.4.1'></script>
+    <script type='text/javascript'
+            src='~/Content/client/assets/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min44fd.js?ver=2.70'></script>
+    <script type='text/javascript'
+            src='~/Content/client/assets/themes/drug-store/assets/js/modernizr-2.6.2.min61da.js?ver=2.6.2'></script>
+    <script type='text/javascript' src='~/Content/client/includes/js/jquery/jqueryb8ff.js?ver=1.12.4'></script>
+    @*<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css'>*@
+    <link rel="alternate" type="application/json+oembed"
+          href="~/Content/client/json/oembed/1.0/embed1d24.json?url=http%3A%2F%2Fholamed.like-themes.com%2F" />
+    <link rel="icon" href="~/Content/client/assets/uploads/2018/11/cropped-favicon-48x48.png" sizes="32x32" />
+    <link rel="stylesheet" href="~/Content/client/new-style.css">
+
+</head>
+<body class="product-template-default single single-product postid-5569 woocommerce woocommerce-page woocommerce-no-js tribe-no-js masthead-fixed full-width footer-widgets singular paceloader-enabled wpb-js-composer js-comp-ver-5.5.5 vc_responsive">
+
+    <div id="preloader"></div>
+    <!--Header-->
+    @Html.Action("HeaderSection", "Home")
+    @Html.Action("ProductGroup", "Home")
+    <!--End Header-->
+    <header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs">
+        <div class="container">
+            <h1>محصول</h1>
+            <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+                <!-- Breadcrumb NavXT 6.2.1 -->
+                <li class="home">
+                    <span property="itemListElement" typeof="ListItem">
+                        <a property="item" typeof="WebPage"
+                           title="Go to Home." href="index.html"
+                           class="home"><span property="name">خانه</span></a><meta property="position" content="1">
+                    </span>
+                </li>
+                <li class="post post-product current-item">
+                    <span property="itemListElement" typeof="ListItem">
+                        <span property="name">محصول</span><meta property="position" content="4">
+                    </span>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container main-wrapper">
+        <div class="inner-page margin-default">
+            <div class="row centered">
+                <div class="col-xl-9 col-lg-12 text-page">
+                    <div class="woocommerce-notices-wrapper"></div>
+                    <div id="product-5569"
+                         class="post-5569 product type-product status-publish has-post-thumbnail product_cat-neurosurgery product_tag-cardiology product_tag-urology first instock featured shipping-taxable purchasable product-type-simple">
+
+                        <div class="row">
+                            <div class="col-md-6 col-md-push-6">
+
+                                <div class="swiper-container ltx-post-gallery swiper-container-horizontal"
+                                     data-autoplay="4000">
+                                    <div class="swiper-wrapper swiper-wrapper-customize"
+                                         style="transform: translate3d(0px, 0px, 0px); transition-duration: 0ms;">
+
+                                        @for (int i = 0; i < Model.ProductGalleries.Count; i++)
+                                        {
+
+                                            <a href="#" data-fancybox="gallery1"
+                                               class="delay-1 swiper-slide swiper-slide-active" style="width: 363px;">
+                                                <img width="1150"
+                                                     height="600"
+                                                     src="~/Files/ProductImages/ProductGallery/@Model.ProductGalleries[i].Image"
+                                                     class="attachment-drug-store-blog-full size-drug-store-blog-full"
+                                                     alt="">
+                                            </a>
+
+                                        }
+
+
+                                    </div>
+                                    <div class="arrows">
+                                        <a href="#" class="arrow-left fa fa-arrow-left swiper-button-disabled" tabindex="0"
+                                           role="button" aria-label="Previous slide" aria-disabled="true"></a>
+                                        <a href="#" class="arrow-right fa fa-arrow-right" tabindex="0" role="button"
+                                           aria-label="Next slide" aria-disabled="false"></a>
+                                    </div>
+                                    <div class="swiper-pages"></div>
+                                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-md-pull-6">
+                                <h1 class="product_title entry-title">@Model.Product.Title</h1>
+                                <p class="price">
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">@Model.Price</span>تومان
+                                    </span>
+                                </p>
+                                <div class="woocommerce-product-details__short-description">
+                                    <p>
+                                        @Model.Product.ShortDescription
+                                    </p>
+                                </div>
+
+
+
+
+                                @*<div class="quantity">
+                                        <label class="screen-reader-text" for="quantity_6045f6e2623b5">کیفیت</label>
+                                        <input type="number"
+                                               id="quantity_6045f6e2623b5"
+                                               class="input-text qty text"
+                                               step="1"
+                                               min="1"
+                                               max=""
+                                               name="quantity"
+                                               value="@Model.ProductMainFeatures.Quantity"
+                                               title="Qty"
+                                               size="4"
+                                               pattern="[0-9]*"
+                                               inputmode="numeric"
+                                               aria-labelledby="" />
+                                    </div>*@
+
+                                @*<button type="button" name="add-to-cart" value="5569"
+                                            class="single_add_to_cart_button button alt" onclick="AddToCartD(@Model.Product.Id)">
+                                        اضافه کردن به سبد خرید
+                                    </button>*@
+                                @*<button type="button" name="add-to-cart" value="5569"
+                                            class="single_add_to_cart_button alt btn btn-default btn-xs btn-black color-hover-main" onclick="AddToCartD(@Model.Product.Id)">
+                                        اضافه کردن به سبد خرید
+                                    </button>*@
+
+                                @*<a href="javascript:void(0)" id="cartEffect" class="btn cart-btn btn-normal tooltip-top " onclick="AddToCartD(@Model.Product.Id)"
+                                       data-tippy-content="افزودن به سبد خرید">
+                                        <i class="fa fa-shopping-cart"></i>
+                                        افزودن به سبد خرید
+                                    </a>*@
+
+                         
+
+                                @*<div class="quantity">
+            <label class="screen-reader-text" for="quantity_6045f6e2623b5">کیفیت</label>
+            <input type="number"
+                   id="quantity_6045f6e2623b5"
+                   class="input-text qty text"
+                   step="1"
+                   min="1"
+                   max=""
+                   name="quantity"
+                   value="1"
+                   title="Qty"
+                   size="4"
+                   pattern="[0-9]*"
+                   inputmode="numeric"
+                   aria-labelledby="" />
+        </div>*@
+
+                                <div>
+                                    <label >تعداد</label>
+                                    <input type="text"   
+                                           value="@Model.ProductMainFeatures.Quantity"
+                                           title="Qty" readonly
+                                           />
+                                </div>
+
+                                <button type="submit" name="add-to-cart" value="5569" onclick="AddToCartD(@Model.Product.Id)"
+                                        class="single_add_to_cart_button button alt">
+                                    اضافه کردن به سبد خرید
+                                </button>
+
+                          
+
+
+
+                                <div class="product_meta">
+
+
+                                    @*<span class="posted_in">
+                                        دسته بندی: <a href="#"
+                                                      rel="tag"></a>
+                                    </span>
+                                    <span class="tagged_as">
+                                        تگ ها: <a href="#" rel="tag"></a>
+                                    </span>*@
+
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#home">توضیحات</a></li>
+                            @*<li><a data-toggle="tab" href="#describe">مشخصات فنی</a></li>*@
+                            <li><a data-toggle="tab" href="#menu1">نظرات</a></li>
+                        </ul>
+
+                        <div class="tab-content">
+                            <div id="home" class="tab-pane fade in active">
+                                @*<h3>توضیحات محصول</h3>*@
+                                <p>
+                                    @Html.Raw(Model.Product.Description)
+                                </p>
+                            </div>
+                            @*<div id="describe" class="tab-pane fade">
+                                    <table id="describe-table">
+
+                                        <tr>
+                                            <td>وزن</td>
+                                            <td>56 گرم</td>
+                                        </tr>
+                                        <tr>
+                                            <td>ابعاد</td>
+                                            <td>9 × 3 × 12 cm</td>
+                                        </tr>
+                                        <tr>
+                                            <td>بارکد وارداتی</td>
+                                            <td>5019781000265</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>کارایی</td>
+                                            <td>بهبود سلامت کبد</td>
+                                        </tr>
+                                        <tr>
+                                            <td> رده سنی</td>
+                                            <td>بزرگسالان</td>
+                                        </tr>
+                                    </table>
+
+                                </div>*@
+
+                            <div id="menu1" class="tab-pane fade">
+                                <div id="comments" class="comments-area">
+                                    <h3 class="comments-title">
+                                        @Model.Comments.Count() کامنت
+                                    </h3>
+
+                                    <div class="comments-ol">
+                                        <ol class="comment-list">
+
+                                            @Html.Action("ShowCommentProduct", "Shop", new { @ProductId = @Model.Product.Id })
+                                        </ol>
+                                    </div>
+
+                                    @Html.Action("SendCommentProduct", "Shop", new { @ProductId = @Model.Product.Id })
+
+                                    
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+                        <br>
+
+                        @Html.Action("RelatedProduct", "Shop", new { @ProductGroupId = @Model.Product.ProductGroupId, @productid = @Model.Product.Id })
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    @Html.Action("FooterSection", "Home")
+
+    <script type='text/javascript' src='~/Content/client/assets/plugins/contact-form-7/includes/js/scripts1748.js?ver=5.0.5'></script>
+
+    <script type='text/javascript' src='~/Content/client/assets/plugins/lt-custom/js/colorpicker5152.js?ver=1.0'></script>
+    <script type='text/javascript' src='~/Content/client/assets/plugins/lt-custom/js/lt-custom5152.js?ver=1.0'></script>
+    <script type='text/javascript'
+            src='~/Content/client/assets/plugins/woocommerce/assets/js/js-cookie/js.cookie.min6b25.js?ver=2.1.4'></script>
+    <script src="~/Content/client/assets/themes/drug-store/assets/css/bootstrap.js"></script>
+    <script type='text/javascript'
+            src='~/Content/client/assets/plugins/woocommerce/assets/js/frontend/cart-fragments.min9d52.js?ver=3.5.1'></script>
+    <script type='text/javascript' src='~/Content/client/includes/js/imagesloaded.min55a0.js?ver=3.2.0'></script>
+    <script type='text/javascript' src='~/Content/client/includes/js/masonry.mind617.js?ver=3.3.2'></script>
+    <script type='text/javascript' src='~/Content/client/includes/js/jquery/jquery.masonry.minef70.js?ver=3.1.2b'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/jquery.countdown3601.js?ver=2.2.0'></script>
+    <script type='text/javascript'
+            src='~/Content/client/assets/themes/drug-store/assets/js/jquery.counterup.min5152.js?ver=1.0'></script>
+    <script type='text/javascript'
+            src='~/Content/client/assets/themes/drug-store/assets/js/jquery.matchHeight8d9d.js?ver=4.9.16'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/jquery.nicescroll87e3.js?ver=3.7.6'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/jquery.swipeboxc2d0.js?ver=1.4.4'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/chart.minde39.js?ver=2.7.3'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/jquery.zoomsliderf096.js?ver=0.2.3'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/waypoint1f22.js?ver=1.6.2'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/affix7433.js?ver=3.3.7'></script>
+    <script type='text/javascript'
+            src='~/Content/client/assets/themes/drug-store/assets/js/jquery.paroller.mine7f0.js?ver=1.3.1'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/swiperb523.js?ver=4.3.3'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/parallax.minc358.js?ver=1.1.3'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/parallax-scroll.min5152.js?ver=1.0'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/scrollreveal7984.js?ver=3.3.4'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/scriptsb34d.js?ver=1.7.4'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/map-style8a54.js?ver=1.0.0'></script>
+    <script type='text/javascript' src='~/Content/client/assets/themes/drug-store/assets/js/pace8d9d.js?ver=4.9.16'></script>
+    <script type='text/javascript' src='~/Content/client/includes/js/wp-embed.min8d9d.js?ver=4.9.16'></script>
+    @*<script src='https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js'></script>*@
+    <script type='text/javascript'
+            src='~/Content/client/assets/plugins/js_composer/assets/js/dist/js_composer_front.min24b2.js?ver=5.5.5'></script>
+    <script type='text/javascript'
+            src='~/Content/client/assets/plugins/js_composer/assets/lib/waypoints/waypoints.min24b2.js?ver=5.5.5'></script>
+    <script type='text/javascript'
+            src='~/Content/client/assets/plugins/mailchimp-for-wp/assets/js/forms-api.mind19b.js?ver=4.2.5'></script>
+
+
+    <script>
+    function AddToCartD(id, mainFeature) {
+            
+            //$("#preloader").show();
+            var mainFeatureId = null;
+            if (mainFeature != null) {
+                mainFeatureId = mainFeature;
+            }
+        if (mainFeatureId === null) {
+          
+                jQuery.ajax({
+                    type: 'POST',
+                    url: '/Cookie/AddToCart?productId=' + id,
+                    success: function (data) {
+                        window.location.href = "/Shop/Detail?id=" + id;
+
+                    },
+                    error: function (data) {
+                        console.log("error");
+                        console.log(data);
+                    },
+                    complete: function () {
+                        $("#preloader").fadeOut(1000);
+                    }
+                });
+        } else {
+             
+               jQuery.ajax({
+                    type: 'POST',
+                    url: '/Cookie/AddToCart?productId=' + id + '&mainFeatureId=' + mainFeatureId,
+                    success: function (data) {
+                        GetCart();
+                    },
+                    error: function (data) {
+                        console.log("error");
+                        console.log(data);
+                    },
+                    complete: function () {
+                        //$("#preloader").fadeOut(1000);
+                    }
+                });
+            }
+            }
+
+
+
+
+      function submitFormpr() {
+            // Initiate Variables With Form Content
+          var email = jQuery("#emailpr").val();
+            var name = jQuery("#namepr").val();
+            var message = jQuery("#messagepr").val();
+          var ProductId = jQuery("#ProductId").val();
+           jQuery.ajax({
+                type: 'POST',
+                url: '/Shop/RegisterCommentProduct',
+                data: "Email=" + email + "&Name=" + name + "&Message=" + message + "&ProductId=" + ProductId,
+                success: function (text) {
+                    if (text == "success") {
+
+                        jQuery("#submitButtonpr").css("background-color", "green");
+                        jQuery("#submitButtonpr").val("ثبت شد");
+                        jQuery("#emailpr").val("");
+                       jQuery("#namepr").val("");
+                        jQuery("#messagepr").val("");
+
+
+                    } else {
+                       jQuery("#submitButtonpr").css("background-color", "red");
+                        jQuery("#submitButtonpr").val("خطا");
+                    }
+                }
+            });
+        }
+    </script>
+
+
+
+
+</body>
+
+</html>

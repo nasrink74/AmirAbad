@@ -1,0 +1,71 @@
+﻿@model IEnumerable<SpadStorePanel.Infrastructure.Dtos.Product.ProductWithPriceDto>
+<div class="container popular">
+    <hr class="mb-5">
+
+    <div class="section-title">
+        <div>
+            <p class="title"><span>محبوب ترین محصولات</span></p>
+        </div>
+
+        <a class="link" href="/Shop">مشاهده همه محصولات</a>
+    </div>
+
+    <div class="row products">
+        @if (Model.Count() != 0)
+        {
+            foreach (var item in Model)
+            {
+                <div class="col-6 col-md-4 col-lg-3 col-xl-5col">
+                    <div class="product product-3 text-center">
+                        <figure class="product-media">
+                            @*<span class="product-label label-sale">فروش ویژه</span>*@
+                            <a href="/Shop/Detail/@item.Id">
+                                <img src="~/Files/ProductImages/Image/@item.Image"
+                                     alt="تصویر محصول" class="product-image">
+                            </a>
+
+                            @*<div class="product-action-vertical">
+                                <a href="#" class="btn-product-icon btn-wishlist btn-expandable">
+                                    <span>
+                                        افزودن به
+                                        لیست
+                                        علاقه مندی
+                                    </span>
+                                </a>
+                            </div>*@
+                        </figure><!-- End .product-media -->
+
+                        <div class="product-body">
+                            <div class="product-cat text-center">
+                                <a href="#">@item.ProductGroupName</a>
+                            </div><!-- End .product-cat -->
+                            <h3 class="product-title text-center">
+                                <a href="product.html">@item.ShortTitle</a>
+                            </h3>
+                            <!-- End .product-title -->
+                            <div class="product-price">
+                                <span class="new-price">@item.Price تومان</span>
+                                @*<span class="old-price">330,000</span>*@
+                            </div><!-- End .product-price -->
+                        </div><!-- End .product-body -->
+
+                        <div class="product-footer">
+                            <div class="ratings-container">
+                                <div class="ratings">
+                                    <div class="ratings-val" style="width: @item.Rate%;"></div><!-- End .ratings-val -->
+                                </div><!-- End .ratings -->
+                                @*<span class="ratings-text">@item.Rate</span>*@
+                            </div><!-- End .rating-container -->
+                            @* <div class="product-action">
+                                <a href="#" class="btn-product btn-cart" title="افزودن به سبد خرید"></a>
+                                <a href="product.html" class="btn-product btn-quickview" title="مشاهده سریع محصول"></a>
+                            </div>*@
+                        </div><!-- End .product-footer -->
+                    </div><!-- End .product -->
+                </div>
+            }
+
+        }
+
+        </div><!-- End .row -->
+</div>

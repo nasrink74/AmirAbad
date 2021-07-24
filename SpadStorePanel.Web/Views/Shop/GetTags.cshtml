@@ -1,0 +1,18 @@
+﻿@model IEnumerable<SpadStorePanel.Core.Models.ArticleTag>
+
+<aside id="woocommerce_product_tag_cloud-4" class="widget woocommerce widget_product_tag_cloud">
+    <h3 class="header-widget">
+        تگ بندی محصولات
+    </h3>
+    <div class="tagcloud">
+        @if (Model.Count() != 0)
+        {
+            foreach (var item in Model)
+            {
+        <a href="#"
+           class="tag-cloud-link tag-link-192 tag-link-position-1"
+           style="font-size: 13.25pt;" aria-label="cardiology (5 products)">@item.Title</a>
+                       }
+        }
+            </div>
+</aside>

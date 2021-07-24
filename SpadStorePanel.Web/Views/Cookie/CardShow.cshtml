@@ -1,0 +1,293 @@
+﻿@model SpadStorePanel.Web.ViewModels.CartModel
+@{
+    Layout = "~/Views/Shared/_LayoutD.cshtml";
+    long defaultquantity = 1;
+    int i = 1;
+}
+
+<div id="preloader"></div>
+<!--Header-->
+@Html.Action("HeaderSection", "Home")
+@Html.Action("ProductGroup", "Home")
+<!--End Header-->
+<header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs">
+    <div class="container">
+        <h1>سبد خرید</h1>
+        <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+            <!-- Breadcrumb NavXT 6.2.1 -->
+            <li class="home">
+                <span property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage"
+                       title="Go to Home." href="#" class="home"><span property="name">خانه</span></a>
+                    <meta property="position" content="1">
+                </span>
+            </li>
+            <li class="post post-page current-item">
+                <span property="itemListElement" typeof="ListItem">
+                    <span property="name">سبد خرید</span>
+                    <meta property="position" content="2">
+                </span>
+            </li>
+        </ul>
+    </div>
+</header>
+
+
+<section class="cart-wraps-area ptb-100">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <form>
+                    <div class="cart-wraps">
+                        <div class="cart-table table-responsive ">
+                            <table class="table table-bordered">
+                                <thead>
+                                    <tr>
+                                        <th style="text-align: center;" scope="col">محصول</th>
+                                        <th style="text-align: center;" scope="col">نام</th>
+                                        <th style="text-align: center;" scope="col">قیمت واحد</th>
+                                        <th style="text-align: center;" scope="col">تعداد</th>
+                                        <th style="text-align: center;" scope="col">کل</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody>
+                                    @if (Model?.CartItems != null && Model.CartItems.Any())
+                                    {
+                                        foreach (var item in Model.CartItems)
+                                        {
+                                            defaultquantity = @item.Price * @item.Quantity;
+                                            <tr>
+                                                <td class="product-thumbnail">
+                                                    <a href="#">
+                                                        <img src="~/Files/ProductImages/Thumb/@item.Image" alt="Image">
+                                                    </a>
+                                                </td>
+
+
+                                                <td class="product-name">
+                                                    <a href="#">@item.ProductName</a>
+                                                </td>
+
+                                                <td class="product-price">
+                                                    <span class="unit-amount">@item.Price تومان</span>
+                                                </td>
+
+                                                <td class="product-quantity" style="display: flex;justify-content: center;">
+                                                    <div style="display: flex; justify-content: center; align-items: center;"
+                                                         class="input-counter">
+                                                        <a id="minus" onclick="CartDecrease(@i);RemoveFromCartS(@item.Id, @item.MainFeatureId, 'false');" href="javascript:void(0)"
+                                                           class="btn mybtn plus-btn btn-main color-hover-gray">
+                                                            -
+                                                        </a>
+
+
+
+
+                                                        <input style="text-align: center; width: 14vw !important;" readonly
+                                                               id="quantity-@item.Id" name="quantity-@item.Id" value="@item.Quantity" type="text" class="value@(i)  quantity-@item.Id">
+
+
+
+
+
+                                                        <a onclick="Add(@item.Id, @item.MainFeatureId); CartIncrease(@i);" href="javascript:void(0)"
+                                                           class="btn mybtn minus-btn btn-main color-hover-gray">
+                                                            +
+                                                        </a>
+
+                                                    </div>
+                                                </td>
+
+
+                                                @*<div style="bottom: 0;" class="qty-box">
+                                                        <div class="input-group">
+                                                            <button id="minus" onclick=" RemoveFromCartS(@item.Id, @item.MainFeatureId, 'false');minus(@item.Id); " href="javascript:void(0)" class="qty-minus"></button>
+                                                            <input class="quantity-@item.Id  qty-adj form-control bg-white" min="0" id="quantity-@item.Id" name="quantity-@item.Id" value="@item.Quantity" type="text">
+                                                            <button id="plus" onclick=" Add(@item.Id, @item.MainFeatureId);plus(@item.Id); " href="javascript:void(0)" class="qty-plus"></button>
+                                                        </div>
+                                                    </div>*@
+
+
+
+                                                <td class="product-subtotal">
+                                                    <span class="subtotal-amount">@defaultquantity تومان</span>
+                                                    <a onclick="RemoveFromCartS(@item.Id, @item.MainFeatureId, 'true')" class="remove" title="حذف محصول">حذف</a>
+                                                </td>
+
+                                            </tr>
+                                            i++;
+                                        }
+                                    }
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="cart-buttons">
+                            <div class="row align-items-center">
+                                <div class="col-lg-7 col-sm-7 col-md-7">
+                                    <div class="continue-shopping-box">
+                                        <a href="/Cookie/CheckOut" class="default-btn btn-bg-three">
+                                            ادامه خرید
+                                        </a>
+                                    </div>
+                                </div>
+
+                                @*<div class="col-lg-5 col-sm-5 col-md-5 text-right">
+                                        <a href="#" class="default-btn btn-bg-three">
+                                            بروزرسانی سبدخرید
+                                        </a>
+                                    </div>*@
+                            </div>
+                        </div>
+                    </div>
+
+                    <div style="display: flex ;justify-content: center;" class="row">
+
+                        <div class="col-lg-6">
+                            <div class="cart-totals">
+                                <h3 class="text-center">جمع سبد خرید</h3>
+                                <ul>
+                                    <li>جمع کل <span>@Model.TotalPrice تومان</span></li>
+                                    @*<li>ارسال<span>3000 تومان</span></li>
+                                        <li>کد تخفیف<span>2000 تومان</span></li>
+                                        <li>جمع <span><b>16000 تومان</b></span></li>*@
+                                </ul>
+                                <a href="/Cookie/CheckOut" class="btn
+                                   btn-main color-hover-gray">
+                                    ادامه خرید
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+@section script{
+    <script src="~/Content/client/assets/js/jquery-ui.min.js"></script>
+    <script>
+
+        document.getElementById('quantity').addEventListener('change', function () {
+            var quantity = $("#quantity").val();
+            var Price = $("#Price").text();
+            var SumPrice = quantity * Price;
+            $("#SumPrice").text(SumPrice);
+
+        });
+
+
+        function reload() {
+            window.location.href = "/Cookie/CardShow";
+        }
+
+        function plus(id) {
+            var quantity = $("#quantity-" + id).val();
+            $("#quantity-" + id).val(quantity);
+
+        }
+        function minus(id) {
+            var quantity = $("#quantity-" + id).val();
+            $("#quantity-" + id).val(quantity);
+
+        }
+        function RemoveFromCartS(id, mainFeatureId, complete) {
+            $("#preloader").show();
+            $.ajax({
+                type: 'POST',
+                url: '/Cookie/RemoveFromCart?productId=' + id + '&mainFeatureId=' + mainFeatureId + '&complete=' + complete,
+                success: function (data) {
+                    window.location.href = "/Cookie/CardShow";
+
+                },
+                error: function (data) {
+                    console.log("error");
+                    console.log(data);
+                },
+                complete: function () {
+                    $("#preloader").fadeOut(1000);
+                }
+            });
+        }
+
+        function Add(id, mainFeature) {
+            $("#preloader").show();
+            var mainFeatureId = null;
+            if (mainFeature != null) {
+                mainFeatureId = mainFeature;
+            }
+            if (mainFeatureId === null) {
+                $.ajax({
+                    type: 'POST',
+                    url: '/Cookie/AddToCart?productId=' + id,
+                    success: function (data) {
+                        window.location.href = "/Cookie/CardShow";
+
+                    },
+                    error: function (data) {
+                        console.log("error");
+                        console.log(data);
+                    },
+                    complete: function () {
+                        $("#preloader").fadeOut(1000);
+                    }
+                });
+            } else {
+                $.ajax({
+                    type: 'POST',
+                    url: '/Cookie/AddToCart?productId=' + id + '&mainFeatureId=' + mainFeatureId,
+                    success: function (data) {
+                        window.location.href = "/Cookie/CardShow";
+                    },
+                    error: function (data) {
+                        console.log("error");
+                        console.log(data);
+                    },
+                    complete: function () {
+                        $("#preloader").fadeOut(1000);
+                    }
+                });
+            }
+        }
+    </script>
+    <script>
+        function CartIncrease(id) {
+
+            var value = $(`.value${id}`);
+
+            var num = parseInt(value.val());
+
+            num += 1;
+
+            value.val(num);
+
+        }
+
+        function CartDecrease(id) {
+
+            var value = $(`.value${id}`);
+
+            var num = parseInt(value.val());
+
+            if (num > 0) {
+                num -= 1;
+            }
+
+            value.val(num);
+
+        }
+    </script>
+}

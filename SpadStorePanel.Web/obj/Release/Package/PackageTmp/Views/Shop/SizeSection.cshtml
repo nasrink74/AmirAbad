@@ -1,0 +1,47 @@
+﻿@model IEnumerable<SpadStorePanel.Core.Models.SubFeature>
+
+@*<div class="widget widget-collapsible">
+    <h3 class="widget-title">
+        <a data-toggle="collapse" href="#widget-1" role="button" aria-expanded="true"
+           aria-controls="widget-1">
+            دسته بندی
+        </a>
+    </h3>
+
+    <div class="collapse show" id="widget-1">
+        <div class="widget-body">
+            <div class="filter-items filter-items-count">
+                @foreach (var item in Model)
+                {
+                    <div class="filter-item">
+                        @Html.ActionLink(item.Title, "GetByCategory", "Shop", new { @id = item.Id }, null)
+                        @*<span class="item-count">3</span>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>*@
+
+
+
+
+<div class="collection-collapse-block open">
+    <h3 class="collapse-block-title">سایز</h3>
+    <div class="collection-collapse-block-content">
+        <div class="size-selector">
+            <div class="collection-brand-filter">
+                @foreach (var item in Model)
+                {
+                <div class="custom-control custom-checkbox  form-check collection-filter-checkbox">
+                    @*<input type="checkbox" class="custom-control-input form-check-input" id="small">
+        <label class="custom-control-label form-check-label" for="small">s</label>*@
+                    @*@Html.ActionLink(item.Value, "GetBySize", "Shop", new { @SizeId = item.Id, @ProductGroupId = @ViewBag.ProductGroupId }, new { @class = "btn btn-outline-info btn-sm" })*@
+
+                    <a href="/Shop/GetBySize?SizeId=@item.Id&ProductGroupId=@ViewBag.ProductGroupId" class="btn btn-outline-info btn-sm">@item.Value</a>
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>

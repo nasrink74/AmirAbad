@@ -1,0 +1,11 @@
+﻿@model IEnumerable<SpadStorePanel.Core.Models.ArticleTag>
+@if (Model.Count() != 0)
+{
+    foreach (var item in Model)
+    {
+        <a href="#"
+           class="tag-cloud-link tag-link-223 tag-link-position-1"
+           style="font-size: 22pt;"
+           aria-label="cardiology (41 items)">@item.Title</a>}
+}
+

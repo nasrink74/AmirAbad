@@ -1,0 +1,317 @@
+﻿@using Microsoft.AspNet.Identity
+@using SpadStorePanel.Infrastructure.Helpers
+@model SpadStorePanel.Web.ViewModels.AddCustomerInvoceViewModel
+@{
+    SpadStorePanel.Infrastructure.Helpers.CheckPermission.CheckUserPermission();
+    ViewBag.Title = "CheckOut";
+    Layout = "~/Views/Shared/_LayoutD.cshtml";
+
+
+}
+
+<div id="preloader"></div>
+<!--Header-->
+@Html.Action("HeaderSection", "Home")
+@Html.Action("ProductGroup", "Home")
+<!--End Header-->
+<header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs">
+    <div class="container">
+        <h1>سبد خرید</h1>
+        <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+            <!-- Breadcrumb NavXT 6.2.1 -->
+            <li class="home">
+                <span property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage"
+                       title="Go to Home." href="#" class="home"><span property="name">خانه</span></a>
+                    <meta property="position" content="1">
+                </span>
+            </li>
+            <li class="post post-page current-item">
+                <span property="itemListElement" typeof="ListItem">
+                    <span property="name">سبد خرید</span>
+                    <meta property="position" content="2">
+                </span>
+            </li>
+        </ul>
+    </div>
+</header>
+<section class="section-big-py-space b-g-light">
+    <div class="container">
+        <div class="checkout-page contact-page">
+            <div class="checkout-form">
+                @using (Html.BeginForm("Payment", "Cookie", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                {
+                    @Html.AntiForgeryToken()
+                <div class="row" style="
+                        display: flex;
+                        align-items: center">
+                    <div class="col-lg-6 col-sm-12 col-xs-12">
+                        <div class="checkout-title">
+                            <h3>جزئیات صورت حساب</h3>
+                        </div>
+                        <div class="theme-form">
+                            <div class="row check-out ">
+
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    @Html.LabelFor(model => model.LastName, new { })
+                                    @*<input style=" height: 45px; color: #555; outline: 0; display: block; border:
+             none; background-color: #f8f8f8; text-align: center; width: 100%;
+             font-size: 17px; font-weight: 600;" type="text" name="field-name"
+            value="" placeholder="">*@
+
+
+                                    @Html.EditorFor(model => model.LastName, new
+                                    {
+                                        htmlAttributes = new
+                                        {
+                              @Style = @"height: 45px; color: #555; outline: 0; display: block; border:
+                                            none; background-color: #f8f8f8; text-align: center; width: 100%;
+                                            font-size: 17px; font-weight: 600;",
+                                            @type = "text",
+                                            @name = "field-name",
+                                            @value = "",
+                                            @placeholder = ""
+                                        }
+                                    })
+                                    @Html.ValidationMessageFor(model => model.LastName, "", new { @class = "form-text text-danger" })
+
+                                </div>
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    @Html.LabelFor(model => model.FirstName, new { })
+                                    @*<input type="text" name="field-name" value="" style="
+            height: 45px;
+            color: #555;
+            outline: 0;
+            display: block;
+            border: none;
+            background-color: #f8f8f8;
+            text-align: center;
+            width: 100%;
+            font-size: 17px;
+            font-weight: 600;" placeholder="">*@
+                                    @Html.EditorFor(model => model.FirstName, new
+                                     {
+                                         htmlAttributes = new
+                                         {
+                               @Style = @"height: 45px; color: #555; outline: 0; display: block; border:
+                                             none; background-color: #f8f8f8; text-align: center; width: 100%;
+                                             font-size: 17px; font-weight: 600;",
+                                            @type = "text",
+                                            @name = "field-name",
+                                            @value = "",
+                                            @placeholder = ""
+                                         }
+                                     })
+                                    @Html.ValidationMessageFor(model => model.FirstName, "", new { @class = "form-text text-danger" })
+
+                                </div>
+
+
+
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    @Html.LabelFor(model => model.NationalCode, new { })
+                                    @*<input style="
+                height: 45px;
+                color: #555;
+                outline: 0;
+                display: block;
+                border: none;
+                background-color: #f8f8f8;
+                text-align: center;
+                width: 100%;
+                font-size: 17px;
+                font-weight: 600;" type="text" name="field-name" value="" placeholder="">*@
+
+                                    @Html.EditorFor(model => model.PhoneNumber, new
+                                     {
+                                         htmlAttributes = new
+                                         {
+                               @Style = @"
+                height: 45px;
+                color: #555;
+                outline: 0;
+                display: block;
+                border: none;
+                background-color: #f8f8f8;
+                text-align: center;
+                width: 100%;
+                font-size: 17px;
+                font-weight: 600;",
+                                           @type = "text",
+                                           @name = "field-name",
+                                           @value = "",
+                                           @placeholder = ""
+                                         }
+                                     })
+                                    @Html.ValidationMessageFor(model => model.NationalCode, "", new { @class = "form-text text-danger" })
+
+
+
+                                </div>
+
+
+                                <div class="form-group col-md-6 col-sm-6 col-xs-12">
+                                    @Html.LabelFor(model => model.PhoneNumber, new { })
+                                    @*<input style="
+            height: 45px;
+            color: #555;
+            outline: 0;
+            display: block;
+            border: none;
+            background-color: #f8f8f8;
+            text-align: center;
+            width: 100%;
+            font-size: 17px;
+            font-weight: 600;" type="text" name="field-name" value="" placeholder="">*@
+
+
+                                    @Html.EditorFor(model => model.PhoneNumber, new
+                                      {
+                                          htmlAttributes = new
+                                          {
+                                @Style = @"
+                height: 45px;
+                color: #555;
+                outline: 0;
+                display: block;
+                border: none;
+                background-color: #f8f8f8;
+                text-align: center;
+                width: 100%;
+                font-size: 17px;
+                font-weight: 600;",
+                                            @type = "text",
+                                            @name = "field-name",
+                                            @value = "",
+                                            @placeholder = ""
+                                          }
+                                      })
+                                    @Html.ValidationMessageFor(model => model.PhoneNumber, "", new { @class = "form-text text-danger" })
+
+                                </div>
+
+                                @*<div class="form-group col-md-12 col-sm-12 col-xs-12">
+            <label class="field-label">کشور</label>
+            <select style="
+                height: 45px;
+                color: #555;
+                outline: 0;
+                display: block;
+                border: none;
+                background-color: #f8f8f8;
+                text-align: center;
+                width: 100%;
+                font-size: 17px;
+                font-weight: 600;">
+                <option>ایران</option>
+                <option>ترکیه</option>
+                <option>قطر</option>
+                <option>چین</option>
+            </select>
+        </div>*@
+                                <div class="form-group col-md-12 col-sm-12 col-xs-12">
+                                    @Html.LabelFor(model => model.Address, new { })
+                                    @*<input style="
+            height: 45px;
+            color: #555;
+            outline: 0;
+            display: block;
+            border: none;
+            background-color: #f8f8f8;
+            text-align: center;
+            width: 100%;
+            font-size: 17px;
+            font-weight: 600;" type="text" name="field-name" value=""
+               placeholder="Street address">*@
+
+                                    @Html.EditorFor(model => model.Address, new { htmlAttributes = new { @style = @"
+                                        height: 45px;
+                                        color: #555;
+                                        outline: 0;
+                                        display: block;
+                                        border: none;
+                                        background-color: #f8f8f8;
+                                        text-align: center;
+                                        width: 100%;
+                                        font-size: 17px;
+                                        font-weight: 600;", @type = "text", @name = "field-name", @value = "", @placeholder = "Street address" } })
+                                    @Html.ValidationMessageFor(model => model.Address, "", new { @class = "form-text text-danger" })
+                                </div>
+                                @*<div class="form-group col-md-12 col-sm-12 col-xs-12">
+            <label class="field-label">استان</label>
+            <input style="
+                height: 45px;
+                color: #555;
+                outline: 0;
+                display: block;
+                border: none;
+                background-color: #f8f8f8;
+                text-align: center;
+                width: 100%;
+                font-size: 17px;
+                font-weight: 600;" type="text" name="field-name" value="" placeholder="">
+        </div>
+        <div class="form-group col-md-12 col-sm-6 col-xs-12">
+            <label class="field-label">شهر / روستا</label>
+            <input style="
+                height: 45px;
+                color: #555;
+                outline: 0;
+                display: block;
+                border: none;
+                background-color: #f8f8f8;
+                text-align: center;
+                width: 100%;
+                font-size: 17px;
+                font-weight: 600;" type="text" name="field-name" value="" placeholder="">
+        </div>*@
+                                <div class="form-group col-md-12 col-sm-6 col-xs-12">
+                                    @Html.LabelFor(model => model.PostalCode, new { })
+                                    @*<input style="
+            height: 45px;
+            color: #555;
+            outline: 0;
+            display: block;
+            border: none;
+            background-color: #f8f8f8;
+            text-align: center;
+            width: 100%;
+            font-size: 17px;
+            font-weight: 600;" type="text" name="field-name" value="" placeholder="">*@
+
+                                    @Html.EditorFor(model => model.PostalCode, new { htmlAttributes = new { @style = @"
+                                            height: 45px;
+                                            color: #555;
+                                            outline: 0;
+                                            display: block;
+                                            border: none;
+                                            background-color: #f8f8f8;
+                                            text-align: center;
+                                            width: 100%;
+                                            font-size: 17px;
+                                            font-weight: 600;", @type = "text", @name = "field-name", @value = "", @placeholder = "" } })
+                                    @Html.ValidationMessageFor(model => model.PostalCode, "", new { @class = "form-text text-danger" })
+                                </div>
+                                @*<div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <input type="checkbox" name="shipping-option" id="account-option">
+            <label style="text-align: center !important;" for="account-option">
+                حساب
+                کاربری ایجاد
+                شود؟
+            </label>
+        </div>*@
+                            </div>
+                        </div>
+                    </div>
+                    @Html.Action("ShowInvoce", "Cookie")
+                  
+                </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+

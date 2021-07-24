@@ -1,0 +1,10 @@
+﻿@model IEnumerable<SpadStorePanel.Core.Models.Certificate>
+
+@foreach (var item in Model)
+{
+    <div class="col-6 col-sm-4 col-md-3">
+        <a href="#" class="brand">
+            <img src="~/Files/CertificatesImages/@item.Image" alt="نام برند">
+        </a>
+    </div><!-- End .col-md-3 -->
+}

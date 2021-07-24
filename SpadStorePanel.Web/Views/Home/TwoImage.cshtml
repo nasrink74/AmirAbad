@@ -1,0 +1,46 @@
+﻿@model SpadStorePanel.Core.Models.StaticContentDetail
+@{ 
+   var Image1 = ViewBag.Image1;
+   var Image2 = ViewBag.Image2;
+}
+
+<section class="collection-banner pt-5  layout-3">
+    <div class="custom-container">
+        <div class="row layout-3-collection">
+            @if (Image1 != null)
+            {
+                <div class="col-md-6 ">
+                    <div class="collection-banner-main banner-12 banner-style3 text-center p-right">
+                        <div class="collection-img">
+                            <img src="~/Files/StaticContentImages/Image/@Image1.Image" class="img-fluid bg-img " alt="banner">
+                        </div>
+                        <div class="collection-banner-contain ">
+                            <div>
+                                <h3>بیشترین فروش</h3>
+                                <h4>@Image1.Title</h4>
+                                <a href="#" class="btn btn-rounded btn-xs"> خرید</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            @if (Image2 != null)
+            {
+                <div class="col-md-6">
+                    <div class="collection-banner-main banner-12 banner-style3 text-center p-right">
+                        <div class="collection-img">
+                            <img src="~/Files/StaticContentImages/Image/@Image2.Image" class="img-fluid bg-img " alt="banner">
+                        </div>
+                        <div class="collection-banner-contain ">
+                            <div>
+                                <h3>محصولات جدید</h3>
+                                <h4>@Image2.Title</h4>
+                                <a href="#" class="btn btn-rounded btn-xs"> خرید</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+            </div>
+    </div>
+</section>

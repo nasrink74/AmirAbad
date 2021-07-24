@@ -1,0 +1,21 @@
+﻿@model SpadStorePanel.Core.Models.StaticContentDetail
+
+@if (Model != null) { 
+<div class="container bannerad">
+    <div class="banner-lg" style="background-image: url(../../Files/StaticContentImages/Image/@Model.Image);">
+        <div class="price">
+            @*<h4 class="highlight">
+               از
+            </h4>*@
+            <h3> @Model.Title</h3>
+        </div>
+        <div class="content">
+            @*<h4>محصولات آپوویتال</h4>*@
+            <h3>@Model.ShortDescription</h3>
+
+        </div>
+        <div style="background-color: rgba(0, 0, 0, 0.4);" class="action ml-5 mr-auto  rounded-circle p-4">
+            <a href="category.html">خرید</a>
+        </div>
+    </div>
+</div>}

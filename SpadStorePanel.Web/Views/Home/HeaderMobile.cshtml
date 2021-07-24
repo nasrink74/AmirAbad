@@ -1,0 +1,82 @@
+﻿<div class="mobile-menu-wrapper">
+    <span class="mobile-menu-close"><i class="icon-close"></i></span>
+
+
+    @using (Html.BeginForm("Search", "Shop", FormMethod.Post, new { @class = "mobile-search" }))
+    {
+        <label for="mobile-search" class="sr-only">جستجو</label>
+        <input type="search" class="form-control" name="txtsearch" id="txtsearch"
+               placeholder="جستجو در ..." required>
+        <button class="btn btn-primary" type="submit"><i class="icon-search"></i></button>
+
+
+
+
+    }
+
+
+
+
+
+    <ul class="nav nav-pills-mobile nav-border-anim" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="mobile-menu-link" data-toggle="tab" href="#mobile-menu-tab"
+               role="tab" aria-controls="mobile-menu-tab" aria-selected="true">منو</a>
+        </li>
+
+    </ul>
+
+    <div class="tab-content">
+        <div class="tab-pane fade show active" id="mobile-menu-tab" role="tabpanel"
+             aria-labelledby="mobile-menu-link">
+            <nav class="mobile-nav">
+                <ul class="mobile-menu">
+                    <li>
+                        @Html.ActionLink("خانه", "Index", "Home", null, new { @class = "sf-with-ul" })
+                    </li>
+                    <li>
+                        @Html.ActionLink("فروشگاه", "Index", "Shop", null, new { @class = "sf-with-ul" })
+                    </li>
+                    <li>
+                        @Html.ActionLink("بلاگ ", "Index", "Blog", null, new { @class = "sf-with-ul" })
+                    </li>
+                    <li>
+
+                        @Html.ActionLink("گالری", "Gallery", "Home", null, new { @class = "sf-with-ul" })
+                    </li>
+                    <li>
+                        @Html.ActionLink("سوالات متداول", "Faq", "Home", null, new { @class = "sf-with-ul" })
+                    </li>
+                    <li>
+                        @Html.ActionLink("درباره ما", "Index", "AboutUs", null, new { @class = "sf-with-ul" })
+                    </li>
+                    <li>
+                        @Html.ActionLink("تماس با ما", "Index", "CantactForm", null, new { @class = "sf-with-ul" })
+                    </li>
+                    <li>
+                        @Html.ActionLink("افتخارات", "Appreciation", "Home", null, new { @class = "sf-with-ul" })
+                    </li>
+                    @if (Request.IsAuthenticated)
+                    {
+                        using (Html.BeginForm("LogOff", "Account", FormMethod.Post, new { id = "logoutForm", @class = "navbar-right" }))
+                        {
+                            @Html.AntiForgeryToken()
+                            <button type="submit" class="btn btn-danger">خروج از سیستم</button>
+                        }
+
+                        <a href="/Admin/Dashboard" class="btn btn-success">پنل کاربری</a>
+                    }
+                    else
+                    {
+                        <a href="/Account/Login" class="btn btn-success">      ورود     </a>
+                        <a href="/Account/Login" class="btn btn-danger">    ثبت نام        </a>
+                    }
+                </ul><!-- End .menu -->
+            </nav><!-- End .mobile-nav -->
+        </div><!-- .End .tab-pane -->
+    </div><!-- End .tab-content -->
+
+    <div class="social-icons">
+        @Html.Action("SocialNetwork", "Home")
+    </div><!-- End .social-icons -->
+</div><!-- End .mobile-menu-wrapper -->

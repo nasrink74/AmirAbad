@@ -1,0 +1,40 @@
+﻿@model IEnumerable<SpadStorePanel.Web.ViewModels.ArticleListViewModel>
+@if (Model.Count() != 0)
+{
+    foreach (var item in Model)
+    {
+        <div class="col-xl-6 col-lg-6 col-md-6 ">
+            <article id="post-6614"
+                     class="post-6614 post type-post status-publish format-standard has-post-thumbnail hentry category-cardiology tag-cardiology tag-food tag-health tag-neurosurgery">
+                <a href="/Blog/BlogDetail/@item.Id"
+                   class="photo">
+                    <img style="height: 400px;" width="770" height="535"
+                         src="~/Files/ArticleImages/Image/@item.Image"
+                         class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                         alt=""
+                         sizes="(max-width: 770px) 100vw, 770px" />
+                </a><span class="ltx-cats"><a href="/Blog/BlogDetail/@item.Id">@item.Title</a></span>
+                <div class="description">
+                    <a href="/Blog/BlogDetail/@item.Id"
+                       class="header"><h3>هر آنچه باید درباره ما بدانید</h3></a>
+                    <div class="blog-info">
+                        <ul>
+                            <li class="ltx-icon-date">
+                                <a href="/Blog/BlogDetail/@item.Id"
+                                   class="ltx-date">
+                                    <span class="fa fa-clock-o"></span><span class="dt">@item.PersianDate</span>
+                                </a>
+                            </li>
+                            @*<li class="ltx-icon-fav">
+                                <span class="fa fa-eye"></span><i>566</i>
+                            </li>*@
+                            <li class="ltx-icon-comments">
+                                <span class="fa fa-comments"></span><i>@item.CountVoute</i>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+        </div>
+    }
+}

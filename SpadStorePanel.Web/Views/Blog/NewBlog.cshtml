@@ -1,0 +1,25 @@
+﻿@model IEnumerable<SpadStorePanel.Web.ViewModels.ArticleListViewModel>
+
+<div class="theme-card">
+    <h4>جدیدترین بلاگ</h4>
+    <ul class="recent-blog d-flex flex-column">
+        @if (Model.Count() != 0)
+        {
+            foreach (var item in Model)
+            {
+                <li>
+                    <div class="media BlogRightMedia gotoBlogDetail">
+                        <a href="/Blog/BlogDetail/@item.Id">
+                            <img class="img-fluid " src="~/Files/ArticleImages/Image/@item.Image"
+                                 alt="Generic placeholder image">
+                        </a>
+                        <div class="media-body align-self-center LeftMediaInBlog">
+                            <h6>@item.PersianDate</h6>
+                            <p>@item.CountVoute دیدگاه</p>
+                        </div>
+                    </div>
+                </li>
+            }
+        }
+    </ul>
+</div>

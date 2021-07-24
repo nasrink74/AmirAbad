@@ -1,0 +1,11 @@
+﻿@model IEnumerable<SpadStorePanel.Core.Models.ArticleCategory>
+
+@if (Model.Count() != 0)
+{
+    foreach (var item in Model)
+    {
+        <li class="cat-item cat-item-216">
+            <a href="/Blog/GetCategotyBlog/@item.Id">@item.Title</a>
+        </li>
+    }
+}

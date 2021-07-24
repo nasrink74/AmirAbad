@@ -1,0 +1,49 @@
+﻿@model IEnumerable<SpadStorePanel.Web.ViewModels.ArticleListViewModel>
+<div class="col-lg-4 col-md-6 col-sm-12 col-ms-12 hidden-xs hidden-ms hidden-sm  matchHeight clearfix">
+    <div class="footer-widget-area">
+        <div id="ltx_blogposts-9" class="widget widget_ltx_blogposts">
+            <h4 class="header-widget">
+                بلاگ ها
+            </h4>
+            <div class="items">
+                @if (Model.Count() != 0)
+                {
+                    foreach (var item in Model)
+                    {
+                        <div class="post">
+                            <a href="/Blog/BlogDetail/@item.Id"
+                               class="photo photo-left">
+                                <img width="200" height="200"
+                                     src="~/Files/ArticleImages/Thumb/@item.Image"
+                                     class="attachment-holamed-blog-tiny size-holamed-blog-tiny wp-post-image"
+                                     alt=""
+                                     sizes="(max-width: 200px) 50vw, 50px" />
+                            </a>
+                            <div class="descr-right">
+                                <div class="blog-info">
+                                    <ul>
+                                        <li class="ltx-icon-date">
+                                            <a href="/Blog/BlogDetail/@item.Id"
+                                               class="ltx-date"><span class="fa fa-clock-o"></span><span class="dt">@item.PersianDate</span></a>
+                                        </li>
+                                        <li class="ltx-icon-fav">
+                                            <span class="fa fa-eye"></span><i>1</i>
+                                        </li>
+                                        <li class="ltx-icon-comments">
+                                            <span class="fa fa-comments"></span><i>@item.CountVoute</i>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a href="/Blog/BlogDetail/@item.Id">
+                                    <h6>
+                                       @item.ShortDescription
+                                    </h6>
+                                </a>
+                            </div>
+                        </div>
+                    }
+                }
+                </div>
+        </div>
+    </div>
+</div>

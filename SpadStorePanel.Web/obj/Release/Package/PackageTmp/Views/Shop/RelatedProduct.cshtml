@@ -1,0 +1,42 @@
+﻿@model IEnumerable<SpadStorePanel.Infrastructure.Dtos.Product.ProductWithPriceDto>
+
+<section class="related products">
+
+    <h2>محصولات مرتبط</h2>
+    <br>
+    <ul class="products columns-3">
+
+        @if (Model.Count() != 0)
+        {
+            foreach (var item in Model)
+            {
+                <li class="post-6545 product type-product status-publish has-post-thumbnail product_cat-urology product_tag-urology first instock shipping-taxable purchasable product-type-simple">
+                    <div class="item matchHeight" data-mh="ltx-wc-item">
+                        <a href="/Shop/Detail/@item.Id">
+                            <div class="image">
+                                <img width="340" height="340" src="~/Files/ProductImages/Image/@item.Image"
+                                     class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail"
+                                     alt=""
+                                     sizes="(max-width: 340px) 100vw, 340px" />
+                            </div>
+                            <h2 class="woocommerce-loop-product__title">@item.ShortTitle</h2>
+                        </a>
+                        <span class="price">
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">@item.Price</span>تومان
+                            </span>
+                        </span>
+                        @*<a href="#"
+                           data-quantity="1"
+                           class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                           data-product_id="6545" data-product_sku=""
+                           aria-label="Add &ldquo;Sport Band&rdquo; to your cart" rel="nofollow">
+                            اضافه کردن به سبد خرید
+                        </a>*@
+                    </div>
+                </li>
+            }
+        }
+            </ul>
+
+</section>

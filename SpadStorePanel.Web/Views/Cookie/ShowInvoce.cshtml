@@ -1,0 +1,104 @@
+﻿@model SpadStorePanel.Web.ViewModels.CartModel
+@{
+    long defaultquantity = 1;
+}
+
+<div class="col-lg-6 col-sm-12 col-xs-12">
+    <div class="checkout-details theme-form  section-big-mt-space">
+        <div class="order-box">
+            <div class="title-box">
+                <div style="display: flex;justify-content: space-between;">
+                    <span>محصول</span>
+                    <span>مجموع</span>
+                </div>
+            </div>
+            <ul class="qty">
+
+                @if (Model?.CartItems != null && Model.CartItems.Any())
+                {
+                    foreach (var item in Model.CartItems)
+                    {
+
+                        defaultquantity = @item.Price * @item.Quantity;
+
+                       
+                        <li style="display: flex;justify-content: space-between;">
+                            @item.ProductName ( @item.Quantity
+                            ) <span>@defaultquantity تومان</span>
+                        </li>
+                    }
+                }
+
+
+
+
+
+            </ul>
+            <ul class="sub-total">
+                <li style="display: flex;justify-content: space-between;">
+                    جمع کل <span class="count">@Model.TotalPrice.ToString("##,###") تومان</span>
+                </li>
+                @*<li style="display: flex;justify-content: space-between;">
+                    شیوه ارسال
+                    <div style="width: auto !important;" class="shipping">
+                        <div class="shopping-option">
+                            <input type="checkbox" name="free-shipping" id="free-shipping">
+                            <label for="free-shipping">ارسال رایگان</label>
+                        </div>
+                        <div class="shopping-option">
+                            <input type="checkbox" name="local-pickup" id="local-pickup">
+                            <label for="local-pickup">پست پیشتاز</label>
+                        </div>
+                    </div>
+                </li>*@
+            </ul>
+            <ul class="total">
+                @*<li style="display: flex;justify-content: space-between;">
+                    مبلغ قابل پرداخت
+                    <span class="count">620,000 تومان</span>
+                </li>*@
+            </ul>
+        </div>
+        <div class="payment-box">
+            <div class="upper-box">
+                <div class="payment-options">
+                    @*<ul>
+                        <li>
+                            <div class="radio-option">
+                                <input type="radio" name="payment-group" id="payment-1"
+                                       checked="checked">
+                                <label for="payment-1">
+                                    کارت به کارت<span class="small-text">
+                                        پرداخت به صورت کارت به
+                                        کارت.
+                                    </span>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="radio-option">
+                                <input type="radio" name="payment-group" id="payment-2">
+                                <label for="payment-2">
+                                    پرداخت نقدی<span class="small-text">
+                                        پرداخت حضوری (مخصوص
+                                        تهران)
+                                    </span>
+                                </label>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="radio-option paypal">
+                                <input type="radio" name="payment-group" id="payment-3">
+                                <label for="payment-3">زرین پال</label>
+                            </div>
+                        </li>
+                    </ul>*@
+                </div>
+            </div>
+            <div class="text-left">
+                <button type="submit" 
+                   class="btn-normal btn">پرداخت صورت حساب</button>
+            </div>
+        </div>
+    </div>
+</div>

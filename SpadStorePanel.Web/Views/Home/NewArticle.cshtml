@@ -1,0 +1,199 @@
+﻿@model IEnumerable<SpadStorePanel.Web.ViewModels.ArticleListViewModel>
+
+<section data-vc-full-width="true" data-vc-full-width-init="false"
+         class="vc_section vc_custom_1541378133054 bg-color-gray ltx-sr ltx-sr-effect-fade_in ltx-sr-id-2138709018 ltx-sr-el-items ltx-sr-delay-200 ltx-sr-duration-500 ltx-sr-sequences-200">
+    <div class="vc_row wpb_row vc_row-fluid">
+        <div class="wpb_column vc_column_container vc_col-sm-12">
+            <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                    <div class="es-resp">
+                        <div class="visible-xl" style="height: 80px;"></div>
+                        <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                             style="height: 64px;"></div>
+                        <div class="visible-md" style="height: 64px;"></div>
+                        <div class="visible-sm " style="height: 64px;"></div>
+                        <div class="visible-ms" style="height: 48px;"></div>
+                        <div class="visible-xs" style="height: 48px;"></div>
+                    </div>
+                    <div class="heading  default align-center color-black subcolor-main transform-default has-subheader icon-type-hidden   vc_custom_1541378187170 heading-tag-h2"
+                         id="like_sc_header_1282180739">
+                        <h6 class="subheader ltx-sr-id-like_sc_header_1282180739678067836 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-100 ltx-sr-duration-300 ltx-sr-sequences-50">
+                            بلاگ
+                        </h6>
+                        <h2 class="header ltx-sr-id-like_sc_header_12821807391547605083 ltx-sr ltx-sr-effect-fade_in ltx-sr-el-block ltx-sr-delay-0 ltx-sr-duration-1000 ltx-sr-sequences-0">
+                            بلاگ های ما
+                        </h2>
+                    </div>
+                    <div class="es-resp">
+                        <div class="visible-xl" style="height: 36px;"></div>
+                        <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                             style="height: 36px;"></div>
+                        <div class="visible-md" style="height: 36px;"></div>
+                        <div class="visible-sm " style="height: 36px;"></div>
+                        <div class="visible-ms" style="height: 36px;"></div>
+                        <div class="visible-xs" style="height: 36px;"></div>
+                    </div>
+                    <div class="blog blog-sc row centered layout-featured-short size-sm">
+                        @if (Model.Count() != 0)
+                        {
+                            int i = 0;
+                            foreach (var item in Model)
+                            {
+
+                                if (i == 0)
+                                {
+                                    <div class="col-lg-push-4 col-lg-4 col-md-6 col-md-push-0 col-sm-6 col-ms-12 col-xs-12">
+                                        <article id="post-6615"
+                                                 class="ltx-featured-post post-6615 post type-post status-publish format-standard has-post-thumbnail hentry category-cardiology category-surgery tag-cardiology tag-food tag-health tag-neurosurgery">
+                                            <a href="/Blog/BlogDetail/@item.Id"
+                                               class="photo">
+                                                <img style="height:  600px !important;" width="495" height="695"
+                                                     src="~/Files/ArticleImages/Image/@item.Image"
+                                                     class="attachment-holamed-blog-featured size-holamed-blog-featured wp-post-image"
+                                                     alt="" />
+                                            </a><span class="ltx-cats">
+                                                @*<a href="blog-details.html">داروخانه</a>*@
+                                            </span>
+                                            <div class="description">
+                                                <a href="/Blog/BlogDetail/@item.Id"
+                                                   class="header"><h3>هر آنچه باید درباره ما بدانید</h3></a>
+                                                <div class="blog-info">
+                                                    <ul>
+                                                        <li class="ltx-icon-date">
+                                                            <a href="#"
+                                                               class="ltx-date">
+                                                                <span class="fa fa-clock-o"></span><span class="dt">@item.PersianDate</span>
+                                                            </a>
+                                                        </li>
+                                                        @*<li class="ltx-icon-fav">
+                                                            <span class="fa fa-eye"></span><i>1</i>
+                                                        </li>*@
+                                                        <li class="ltx-icon-comments">
+                                                            <span class="fa fa-comments"></span><i>@item.CountVoute</i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+
+                                }
+                                if (i == 1)
+                                {
+                                    <div class="col-lg-push-4 col-lg-4 col-md-6 col-md-push-0 col-sm-6 col-ms-12 col-xs-12">
+                                        <article id="post-6614"
+                                                 class="ltx-featured-post post-6614 post type-post status-publish format-standard has-post-thumbnail hentry category-cardiology tag-cardiology tag-food tag-health tag-neurosurgery">
+                                            <a href="/Blog/BlogDetail/@item.Id"
+                                               class="photo">
+                                                <img style="height:  600px !important;" width="495" height="695"
+                                                     src="~/Files/ArticleImages/Image/@item.Image"
+                                                     class="attachment-holamed-blog-featured size-holamed-blog-featured wp-post-image"
+                                                     alt=""  />
+                                            </a><span class="ltx-cats">
+                                                @*<a href="blog-details.html">داروخانه</a>*@
+                                            </span>
+                                            <div class="description">
+                                                <a href="/Blog/BlogDetail/@item.Id"
+                                                   class="header">
+                                                    <h3>
+                                                        هر آنچه باید درباره ما بدانید
+                                                    </h3>
+                                                </a>
+                                                <div class="blog-info">
+                                                    <ul>
+                                                        <li class="ltx-icon-date">
+                                                            <a href="#"
+                                                               class="ltx-date">
+                                                                <span class="fa fa-clock-o"></span><span class="dt">@item.PersianDate</span>
+                                                            </a>
+                                                        </li>
+                                                        @*<li class="ltx-icon-fav">
+                                                            <span class="fa fa-eye"></span><i>566</i>
+                                                        </li>*@
+                                                        <li class="ltx-icon-comments">
+                                                            <span class="fa fa-comments"></span><i>@item.CountVoute</i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                }
+                                if (i == 2)
+                                {
+                                    <div class="col-lg-pull-8 col-lg-4 col-md-pull-0 col-md-6 col-sm-12 col-ms-12 col-xs-12 ltx-col-simple-blog">
+                                        <article id="post-6618"
+                                                 class="ltx-featured-post post-6614 post type-post status-publish format-standard has-post-thumbnail hentry category-cardiology tag-cardiology tag-food tag-health tag-neurosurgery">
+                                            <a href="/Blog/BlogDetail/@item.Id"
+                                               class="photo">
+                                                <img style="height:  600px !important;" width="495" height="695"
+                                                     src="~/Files/ArticleImages/Image/@item.Image"
+                                                     class="attachment-holamed-blog-featured size-holamed-blog-featured wp-post-image"
+                                                     alt="" />
+                                            </a><span class="ltx-cats">
+                                                @*<a href="blog-details.html">داروخانه</a>*@
+                                            </span>
+                                            <div class="description">
+                                                <a href="/Blog/BlogDetail/@item.Id"
+                                                   class="header">
+                                                    <h3>
+                                                        هر آنچه باید درباره ما بدانید
+                                                    </h3>
+                                                </a>
+                                                <div class="blog-info">
+                                                    <ul>
+                                                        <li class="ltx-icon-date">
+                                                            <a href="#"
+                                                               class="ltx-date">
+                                                                <span class="fa fa-clock-o"></span><span class="dt">@item.PersianDate</span>
+                                                            </a>
+                                                        </li>
+                                                        @*<li class="ltx-icon-fav">
+                                                            <span class="fa fa-eye"></span><i>566</i>
+                                                        </li>*@
+                                                        <li class="ltx-icon-comments">
+                                                            <span class="fa fa-comments"></span><i>@item.CountVoute</i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                }
+                                i++;
+                            }
+                        }
+
+
+                    </div>
+                    <div class="clear"></div>
+                    <div class="es-resp">
+                        <div class="visible-xl" style="height: 48px;"></div>
+                        <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                             style="height: 48px;"></div>
+                        <div class="visible-md" style="height: 48px;"></div>
+                        <div class="visible-sm " style="height: 48px;"></div>
+                        <div class="visible-ms" style="height: 48px;"></div>
+                        <div class="visible-xs" style="height: 48px;"></div>
+                    </div>
+                    <div class="btn-wrap align-center">
+                        <a href="/Blog"
+                           class="btn  btn-black color-hover-default align-center   vc_custom_1541692279813"
+                           id="like_sc_button_1714327138">
+                            دیدن بیشتر
+                        </a>
+                    </div>
+                    <div class="es-resp">
+                        <div class="visible-xl" style="height: 140px;"></div>
+                        <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                             style="height: 128px;"></div>
+                        <div class="visible-md" style="height: 128px;"></div>
+                        <div class="visible-sm " style="height: 128px;"></div>
+                        <div class="visible-ms" style="height: 96px;"></div>
+                        <div class="visible-xs" style="height: 96px;"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

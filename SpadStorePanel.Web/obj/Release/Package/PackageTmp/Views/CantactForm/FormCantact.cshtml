@@ -1,0 +1,43 @@
+﻿@model SpadStorePanel.Core.Models.ContactForm
+
+<form action="#"
+      method="post" class="wpcf7-form" novalidate="novalidate">
+    <div style="display: none;">
+        <input type="hidden" name="_wpcf7" value="1555" />
+        <input type="hidden" name="_wpcf7_version" value="5.0.5" />
+        <input type="hidden" name="_wpcf7_locale" value="en_US" />
+        <input type="hidden" name="_wpcf7_unit_tag"
+               value="wpcf7-f1555-p25-o1" />
+        <input type="hidden" name="_wpcf7_container_post"
+               value="25" />
+    </div>
+    <p>
+        <span class="wpcf7-form-control-wrap field-header">
+            <input type="text" id="first-name" name="first-name" value="" size="40"
+                   class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                   aria-required="true" aria-invalid="false"
+                   placeholder="نام " />
+        </span>
+    </p>
+    <p>
+        <span class="wpcf7-form-control-wrap field-header2">
+            <input type="text" name="emailll" id="emailll" value="" size="40"
+                   class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                   aria-required="true" aria-invalid="false"
+                   placeholder="ایمیل" />
+        </span>
+    </p>
+    <p>
+        <span class="wpcf7-form-control-wrap field-header-3">
+            <textarea name="description" id="description"  cols="40" rows="10"
+                      class="wpcf7-form-control wpcf7-textarea"
+                      aria-invalid="false"
+                      placeholder="پیام خود را بنویسید"></textarea>
+        </span>
+    </p>
+    <p>
+        <input type="button" value="تایید" id="submitButton" onclick="submitForm()"
+               class="wpcf7-form-control wpcf7-submit" />
+    </p>
+    <div class="wpcf7-response-output wpcf7-display-none"></div>
+</form>

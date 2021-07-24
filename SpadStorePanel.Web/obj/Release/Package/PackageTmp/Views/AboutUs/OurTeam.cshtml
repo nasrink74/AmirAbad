@@ -1,0 +1,27 @@
+﻿@model IEnumerable<SpadStorePanel.Core.Models.OurTeam>
+
+
+<section id="team" class="team section-big-py-space ratio_asos">
+    <div class="custom-container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h2>تیم ما</h2>
+                <div class="team-4">
+                    @foreach (var item in Model)
+                    {
+                        <div>
+                            <div>
+                                <img src="~/Files/OurTeamImages/@item.Image" width="353px" height="451px"
+                                     class="img-fluid d-block bg-img" alt="team">
+                            </div>
+                            <h4>@item.Title</h4>
+                            <h6>@item.Role</h6>
+                        </div>
+                        }
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+

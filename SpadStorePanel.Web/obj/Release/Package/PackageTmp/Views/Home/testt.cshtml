@@ -1,0 +1,640 @@
+﻿@{
+    Layout = "~/Views/Shared/_LayoutD.cshtml";
+    var productgroupid = ViewBag.ProductGroupId;
+}
+<div id="preloader"></div>
+<!--Header-->
+@Html.Action("HeaderSection", "Home")
+@Html.Action("ProductGroup", "Home")
+<!--End Header-->
+<header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs">
+    <div class="container">
+        <h1>محصولات</h1>
+        <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+            <!-- Breadcrumb NavXT 6.2.1 -->
+            <li class="home">
+                <span property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage"
+                       title="Go to Home." href="index.html"
+                       class="home"><span property="name">خانه</span></a><meta property="position" content="1">
+                </span>
+            </li>
+            <li class="archive post-product-archive current-item">
+                <span property="itemListElement"
+                      typeof="ListItem">
+                    <span property="name">محصولات</span><meta property="position" content="2">
+                </span>
+            </li>
+        </ul>
+    </div>
+</header>
+<div class="container main-wrapper">
+    <div class="inner-page margin-default">
+        <div class="row">
+            <div class="col-xl-9 col-lg-8 col-md-12 col-xs-12 text-page products-column-with-sidebar matchHeight float-left">
+                <header class="woocommerce-products-header"></header>
+                <div class="woocommerce-notices-wrapper"></div>
+                <p class="woocommerce-result-count">
+                    نتیجه جستجو : 1-6
+                </p>
+                <form class="woocommerce-ordering" method="get">
+                    <select name="orderby" class="orderby">
+                        <option value="menu_order" selected='selected'>مرتب کردن</option>
+                        <option value="popularity">بر اساس تاریخ</option>
+                        <option value="rating">بر اساس تاریخ</option>
+                        <option value="date">بر اساس تاریخ</option>
+                        <option value="price">بر اساس تاریخ</option>
+                        <option value="price-desc">بر اساس تاریخ</option>
+                    </select>
+                    <input type="hidden" name="paged" value="1" />
+                </form>
+                <ul class="products columns-3">
+                    <li class="post-5570 product type-product status-publish has-post-thumbnail product_cat-neurosurgery product_tag-cardiology product_tag-neurosurgery product_tag-surgery product_tag-urology first instock sale shipping-taxable purchasable product-type-simple">
+                        <div class="item matchHeight" data-mh="ltx-wc-item">
+                            <a href="product.html">
+                                <div class="image">
+
+                                    <span class="onsale">تخفیف</span>
+                                    <img width="340" height="340" src="assets/uploads/2018/11/3-340x340.jpg"
+                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                         sizes="(max-width: 340px) 100vw, 340px" />
+                                </div>
+                                <h2 class="woocommerce-loop-product__title">آسپرین</h2>
+                            </a>
+                            <div class="post_content entry-content">امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است</div>
+                            <span class="price">
+                                <del>
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">90</span>تومان
+                                    </span>
+                                </del> <ins>
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">50</span>تومان
+                                    </span>
+                                </ins>
+                            </span>
+                            <a href="product.html" data-quantity="1"
+                               class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                               data-product_id="5570" data-product_sku=""
+                               aria-label="Add &ldquo;Aspirin 10 pills&rdquo; to your cart" rel="nofollow">اضافه کردن به سبد خرید</a>
+                        </div>
+                    </li>
+                    <li class="post-5542 product type-product status-publish has-post-thumbnail product_cat-surgery product_tag-urology instock shipping-taxable purchasable product-type-simple">
+                        <div class="item matchHeight" data-mh="ltx-wc-item">
+                            <a href="product.html">
+                                <div class="image">
+                                    <img width="340" height="340" src="assets/uploads/2018/11/5-340x340.jpg"
+                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                         sizes="(max-width: 340px) 100vw, 340px" />
+                                </div>
+                                <h2 class="woocommerce-loop-product__title">اسپری آسم</h2>
+                            </a>
+                            <div class="post_content entry-content">امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است</div>
+                            <span class="price">
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">90</span>تومان
+                                </span>
+                            </span>
+                            <a href="product.html" data-quantity="1"
+                               class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                               data-product_id="5542" data-product_sku=""
+                               aria-label="Add &ldquo;Asthma inhaler&rdquo; to your cart" rel="nofollow">اضافه کردن به سبد خرید</a>
+                        </div>
+                    </li>
+                    <li class="post-5540 product type-product status-publish has-post-thumbnail product_cat-surgery product_tag-cardiology product_tag-neurosurgery product_tag-surgery product_tag-urology last instock sale shipping-taxable purchasable product-type-simple">
+                        <div class="item matchHeight" data-mh="ltx-wc-item">
+                            <a href="product.html">
+                                <div class="image">
+
+                                    <span class="onsale">تخفیف</span>
+                                    <img width="340" height="340" src="assets/uploads/2018/11/6-340x340.jpg"
+                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                         sizes="(max-width: 340px) 100vw, 340px" />
+                                </div>
+                                <h2 class="woocommerce-loop-product__title">قرص </h2>
+                            </a>
+                            <div class="post_content entry-content">امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است</div>
+                            <span class="price">
+                                <del>
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">90</span>تومان
+                                    </span>
+                                </del> <ins>
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">50</span>تومان
+                                    </span>
+                                </ins>
+                            </span>
+                            <a href="product.html" data-quantity="1"
+                               class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                               data-product_id="5540" data-product_sku=""
+                               aria-label="Add &ldquo;Feather Pillow&rdquo; to your cart" rel="nofollow">اضافه کردن به سبد خرید</a>
+                        </div>
+                    </li>
+                    <li class="post-5570 product type-product status-publish has-post-thumbnail product_cat-neurosurgery product_tag-cardiology product_tag-neurosurgery product_tag-surgery product_tag-urology first instock sale shipping-taxable purchasable product-type-simple">
+                        <div class="item matchHeight" data-mh="ltx-wc-item">
+                            <a href="product.html">
+                                <div class="image">
+
+                                    <span class="onsale">تخفیف</span>
+                                    <img width="340" height="340" src="assets/uploads/2018/11/3-340x340.jpg"
+                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                         sizes="(max-width: 340px) 100vw, 340px" />
+                                </div>
+                                <h2 class="woocommerce-loop-product__title">آسپرین</h2>
+                            </a>
+                            <div class="post_content entry-content">امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است</div>
+                            <span class="price">
+                                <del>
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">90</span>تومان
+                                    </span>
+                                </del> <ins>
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">50</span>تومان
+                                    </span>
+                                </ins>
+                            </span>
+                            <a href="product.html" data-quantity="1"
+                               class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                               data-product_id="5570" data-product_sku=""
+                               aria-label="Add &ldquo;Aspirin 10 pills&rdquo; to your cart" rel="nofollow">اضافه کردن به سبد خرید</a>
+                        </div>
+                    </li>
+                    <li class="post-5542 product type-product status-publish has-post-thumbnail product_cat-surgery product_tag-urology instock shipping-taxable purchasable product-type-simple">
+                        <div class="item matchHeight" data-mh="ltx-wc-item">
+                            <a href="product.html">
+                                <div class="image">
+                                    <img width="340" height="340" src="assets/uploads/2018/11/5-340x340.jpg"
+                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                         sizes="(max-width: 340px) 100vw, 340px" />
+                                </div>
+                                <h2 class="woocommerce-loop-product__title">اسپری آسم</h2>
+                            </a>
+                            <div class="post_content entry-content">امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است</div>
+                            <span class="price">
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">90</span>تومان
+                                </span>
+                            </span>
+                            <a href="product.html" data-quantity="1"
+                               class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                               data-product_id="5542" data-product_sku=""
+                               aria-label="Add &ldquo;Asthma inhaler&rdquo; to your cart" rel="nofollow">اضافه کردن به سبد خرید</a>
+                        </div>
+                    </li>
+                    <li class="post-5540 product type-product status-publish has-post-thumbnail product_cat-surgery product_tag-cardiology product_tag-neurosurgery product_tag-surgery product_tag-urology last instock sale shipping-taxable purchasable product-type-simple">
+                        <div class="item matchHeight" data-mh="ltx-wc-item">
+                            <a href="product.html">
+                                <div class="image">
+
+                                    <span class="onsale">تخفیف</span>
+                                    <img width="340" height="340" src="assets/uploads/2018/11/6-340x340.jpg"
+                                         class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                         sizes="(max-width: 340px) 100vw, 340px" />
+                                </div>
+                                <h2 class="woocommerce-loop-product__title">قرص </h2>
+                            </a>
+                            <div class="post_content entry-content">امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است</div>
+                            <span class="price">
+                                <del>
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">90</span>تومان
+                                    </span>
+                                </del> <ins>
+                                    <span class="woocommerce-Price-amount amount">
+                                        <span class="woocommerce-Price-currencySymbol">50</span>تومان
+                                    </span>
+                                </ins>
+                            </span>
+                            <a href="product.html" data-quantity="1"
+                               class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                               data-product_id="5540" data-product_sku=""
+                               aria-label="Add &ldquo;Feather Pillow&rdquo; to your cart" rel="nofollow">اضافه کردن به سبد خرید</a>
+                        </div>
+                    </li>
+                </ul>
+                <nav class="navigation paging-navigation">
+                    <h3 class="screen-reader-text">Posts navigation</h3>
+                    <div class="pagination loop-pagination">
+                        <a href="#" class="prev page-numbers disabled"></a><span class='page-numbers current'>1</span>
+                        <a class='page-numbers' href='#'>2</a>
+                        <a class="next page-numbers" href="#"></a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-12 col-xs-12 div-sidebar matchHeight float-left">
+                <div id="content-sidebar" class="content-sidebar woocommerce-sidebar widget-area" role="complementary">
+                    <aside id="woocommerce_product_search-2" class="widget woocommerce widget_product_search">
+                        <form role="search" method="get" class="woocommerce-product-search"
+                              action="http://holamed.like-themes.com/">
+                            <label class="screen-reader-text" for="woocommerce-product-search-field-0">
+                                Search
+                                for:
+                            </label>
+                            <input type="search" id="woocommerce-product-search-field-0" class="search-field"
+                                   placeholder="جستجوی محصول" value="" name="s" />
+                            <button type="submit" value="Search">Search</button>
+                            <input type="hidden" name="post_type" value="product" />
+                        </form>
+                    </aside>
+                    <aside id="woocommerce_product_categories-4" class="widget woocommerce widget_product_categories">
+                        <h3 class="header-widget">دسته بندی ها</h3>
+                        <ul class="product-categories">
+                            <li class="cat-item cat-item-256">
+                                <a href="blog.html">دارو</a>
+                            </li>
+                            <li class="cat-item cat-item-271">
+                                <a href="blog.html">داروخانه</a>
+                            </li>
+                            <li class="cat-item cat-item-272">
+                                <a href="blog.html">
+                                    داروخانه
+                                </a>
+                            </li>
+                            <li class="cat-item cat-item-254">
+                                <a href="blog.html">داروخانه</a>
+                            </li>
+                            <li class="cat-item cat-item-253">
+                                <a href="blog.html">دارو</a>
+                            </li>
+                            <li class="cat-item cat-item-209">
+                                <a href="blog.html">داروخانه</a>
+                            </li>
+                            <li class="cat-item cat-item-243">
+                                <a href="blog.html">داروخانه</a>
+                            </li>
+                            <li class="cat-item cat-item-272">
+                                <a href="blog.html">
+                                    داروخانه
+                                </a>
+                            </li>
+                            <li class="cat-item cat-item-254">
+                                <a href="blog.html">داروخانه</a>
+                            </li>
+                            <li class="cat-item cat-item-253">
+                                <a href="blog.html">دارو</a>
+                            </li>
+                            <li class="cat-item cat-item-209">
+                                <a href="blog.html">داروخانه</a>
+                            </li>
+                            <li class="cat-item cat-item-243">
+                                <a href="blog.html">داروخانه</a>
+                            </li>
+
+                        </ul>
+                    </aside>
+                    <aside id="woocommerce_price_filter-4" class="widget woocommerce widget_price_filter">
+                        <h3 class="header-widget">
+                            فیلتر
+                        </h3>
+                        <button type="button" class="collaps-btn" data-toggle="collapse" data-target="#brand">برند</button>
+                        <div id="brand" class="collapse">
+                            <ul>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" class="filter-checkBox" value="">آدریفام</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" class="filter-checkBox" value="">آرشام دارو</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" class="filter-checkBox" value="">آلفا</label>
+                                </div>
+                            </ul>
+                        </div>
+                        <button type="button" class="collaps-btn" data-toggle="collapse" data-target="#price">قیمت</button>
+                        <div id="price" class="collapse">
+                            <ul>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" class="filter-checkBox" value="">100-1000</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" class="filter-checkBox" value="">1000-10000</label>
+                                </div>
+                                <div class="checkbox">
+                                    <label><input type="checkbox" class="filter-checkBox" value="">بیش تر از 10000</label>
+                                </div>
+                            </ul>
+                        </div>
+                    </aside>
+                    <aside id="woocommerce_product_tag_cloud-4" class="widget woocommerce widget_product_tag_cloud">
+                        <h3 class="header-widget">
+                            تگ بندی محصولات
+                        </h3>
+                        <div class="tagcloud">
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-192 tag-link-position-1"
+                               style="font-size: 13.25pt;" aria-label="cardiology (5 products)">قرص</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-193 tag-link-position-2" style="font-size: 8pt;"
+                               aria-label="neurosurgery (3 products)">اسپری</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-194 tag-link-position-3" style="font-size: 8pt;"
+                               aria-label="surgery (3 products)">دارو</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-227 tag-link-position-4" style="font-size: 22pt;"
+                               aria-label="urology (11 products)">پزشکی</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-192 tag-link-position-1"
+                               style="font-size: 13.25pt;" aria-label="cardiology (5 products)">قرص</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-193 tag-link-position-2" style="font-size: 8pt;"
+                               aria-label="neurosurgery (3 products)">اسپری</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-194 tag-link-position-3" style="font-size: 8pt;"
+                               aria-label="surgery (3 products)">دارو</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-227 tag-link-position-4" style="font-size: 22pt;"
+                               aria-label="urology (11 products)">پزشکی</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-193 tag-link-position-2" style="font-size: 8pt;"
+                               aria-label="neurosurgery (3 products)">اسپری</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-194 tag-link-position-3" style="font-size: 8pt;"
+                               aria-label="surgery (3 products)">دارو</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-227 tag-link-position-4" style="font-size: 22pt;"
+                               aria-label="urology (11 products)">پزشکی</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-192 tag-link-position-1"
+                               style="font-size: 13.25pt;" aria-label="cardiology (5 products)">قرص</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-193 tag-link-position-2" style="font-size: 8pt;"
+                               aria-label="neurosurgery (3 products)">اسپری</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-194 tag-link-position-3" style="font-size: 8pt;"
+                               aria-label="surgery (3 products)">دارو</a>
+                            <a href="blog.html"
+                               class="tag-cloud-link tag-link-227 tag-link-position-4" style="font-size: 22pt;"
+                               aria-label="urology (11 products)">پزشکی</a>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<section id="ltx-widgets-footer">
+    <div class="container">
+        <div class="subscribe-wrapper">
+            <div class="subscribe-block">
+                <section class="vc_section">
+                    <div class="vc_row wpb_row vc_row-fluid">
+                        <div class="wpb_column vc_column_container vc_col-sm-4 vc_hidden-md vc_hidden-sm vc_hidden-xs">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <a class="logo ltx-logo-" href="index.html">
+                                        <img src="assets/uploads/2018/11/logo_01-1.png" alt="Holamed WordPress Theme"
+                                        <div class="wpb_text_column wpb_content_element ">
+                                            <div class="wpb_wrapper">
+
+
+                                            </div>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper">
+                                            <script>
+                                                (function () {
+                                                    if (!window.mc4wp) {
+                                                        window.mc4wp = {
+                                                            listeners: [],
+                                                            forms: {
+                                                                on: function (event, callback) {
+                                                                    window.mc4wp.listeners.push({
+                                                                        event: event,
+                                                                        callback: callback
+                                                                    });
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                })();
+                                            </script>
+                                            <!-- MailChimp for WordPress v4.2.5 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
+                                            <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-806" method="post"
+                                                  data-id="806" data-name="Subscribe Form">
+                                                <div class="mc4wp-form-fields">
+                                                    <div class="input-group">
+                                                        <span class="input-group-append">
+                                                            <button class="btn btn-main color-hover-gray" type="submit">ارسال</button>
+                                                        </span>
+                                                        <input type="email" name="EMAIL"
+                                                               class="footer-inpt text-right"
+                                                               placeholder="ایمیل را وارد کنید"
+                                                               required />
+
+
+                                                    </div>
+                                                </div>
+                                                <label style="display: none !important;">
+                                                    Leave this field empty if
+                                                    you're human: <input type="text" name="_mc4wp_honeypot" value=""
+                                                                         tabindex="-1"
+                                                                         autocomplete="off" />
+                                                </label><input type="hidden" name="_mc4wp_timestamp" value="1615197008" /><input type="hidden" name="_mc4wp_form_id" value="806" /><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1" />
+                                                <div class="mc4wp-response"></div>
+                                            </form><!-- / MailChimp for WordPress Plugin -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_hidden-xs text-align-right-lg">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper text-left-imp">
+                                            <div class="ltx-social ltx-nav-second">
+                                                <span class="header"><span>ما را دنبال کنید</span></span>
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" target="_self">
+                                                            <span class="fa fa-google-plus"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self"><span class="fa fa-instagram"></span></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self">
+                                                            <span class="fa fa-facebook-f"></span>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" target="_self">
+                                                            <span class="fa fa-twitter"></span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-ms-12   matchHeight clearfix">
+                <div class="footer-widget-area">
+                    <div id="text-10" class="widget widget_text">
+                        <h4 class="header-widget">درباره ما</h4>
+                        <div class="textwidget">
+                            <p>
+                                امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است ،
+                                امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است ،
+                                امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است ،
+                                امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است ،
+                            </p>
+                        </div>
+                    </div>
+                    <div id="ltx_icons-3" class="widget widget_ltx_icons">
+                        <ul class="social-icons-list">
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-phone"></span><strong> تلفن : </strong>+3 (092)
+                                    508-38-01
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-map-marker"></span><strong> آدرس : </strong> تهران ،
+                                    میدان آزادی
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-clock-o"></span><strong> ساعت کاری </strong> 8 صبح تا 5
+                                    بعد از ظهر
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-ms-12 hidden-xs hidden-ms hidden-sm hidden-md matchHeight clearfix">
+                <div class="footer-widget-area">
+                    <div id="ltx_navmenu-4" class="widget widget_ltx_navmenu">
+                        <h4 class="header-widget">لینک ها</h4>
+                        <div class="menu-main-menu-container">
+                            <ul id="menu-main-menu-1" class="menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5151 current_page_item current-menu-ancestor current-menu-parent current_page_ancestor menu-item-has-children menu-item-6137">
+                                    <a href="index.html">خانه</a>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3557">
+                                    <a href="about.html">درباره ما</a>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-619">
+                                    <a href="shop.html">محصولات</a>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59">
+                                    <a href="blog.html">بلاگ</a>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60">
+                                    <a href="gallery.html">گالری</a>
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+                                    <a href="contacts.html">تماس با ما</a>
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-has-mega-menu menu-item-61">
+                                    <a href="testimonials.html">نطرات </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-ms-12 hidden-xs hidden-ms hidden-sm  matchHeight clearfix">
+                <div class="footer-widget-area">
+                    <div id="ltx_blogposts-9" class="widget widget_ltx_blogposts">
+                        <h4 class="header-widget">
+                            بلاگ ها
+                        </h4>
+                        <div class="items">
+                            <div class="post">
+                                <a href="blog-details.html"
+                                   class="photo photo-left">
+                                    <img width="128" height="84"
+                                         src="assets/uploads/2018/11/blog_02-1-128x84.jpg"
+                                         class="attachment-holamed-blog-tiny size-holamed-blog-tiny wp-post-image"
+                                         alt=""
+                                         sizes="(max-width: 128px) 100vw, 128px" />
+                                </a>
+                                <div class="descr-right">
+                                    <div class="blog-info">
+                                        <ul>
+                                            <li class="ltx-icon-date">
+                                                <a href="blog-details.html"
+                                                   class="ltx-date"><span class="fa fa-clock-o"></span><span class="dt">20 اسفند 1399</span></a>
+                                            </li>
+                                            <li class="ltx-icon-fav">
+                                                <span class="fa fa-eye"></span><i>1</i>
+                                            </li>
+                                            <li class="ltx-icon-comments">
+                                                <span class="fa fa-comments"></span><i>5</i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="blog-details.html">
+                                        <h6>
+                                            امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="post">
+                                <a href="blog.html"
+                                   class="photo photo-left">
+                                    <img width="128" height="84"
+                                         src="assets/uploads/2018/11/blog_01-128x84.jpg"
+                                         class="attachment-holamed-blog-tiny size-holamed-blog-tiny wp-post-image"
+                                         alt=""
+                                         sizes="(max-width: 128px) 100vw, 128px" />
+                                </a>
+                                <div class="descr-right">
+                                    <div class="blog-info">
+                                        <ul>
+                                            <li class="ltx-icon-date">
+                                                <a href="blog.html"
+                                                   class="ltx-date"><span class="fa fa-clock-o"></span><span class="dt">19 اسفند 1399</span></a>
+                                            </li>
+                                            <li class="ltx-icon-fav">
+                                                <span class="fa fa-eye"></span><i>566</i>
+                                            </li>
+                                            <li class="ltx-icon-comments">
+                                                <span class="fa fa-comments"></span><i>1</i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a href="blog.html">
+                                        <h6>
+                                            امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است
+                                        </h6>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="copyright-block copyright-layout-default">
+    <div class="container">
+        <p>
+            © طراحی شده توسط <a href="https://www.spad.co/">اسپاد</a>
+        </p>
+    </div>
+</footer>

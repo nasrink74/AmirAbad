@@ -1,0 +1,201 @@
+﻿@model SpadStorePanel.Web.ViewModels.ArticleListViewModel
+@{
+    Layout = "~/Views/Shared/_LayoutD.cshtml";
+    var ArticleTags = ViewBag.ArticleTags;
+}
+<div id="preloader"></div>
+<!--Header-->
+@Html.Action("HeaderSection", "Home")
+@Html.Action("ProductGroup", "Home")
+<!--End Header-->
+<header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs">
+    <div class="container">
+        <h1>بلاگ</h1>
+        <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+            <!-- Breadcrumb NavXT 6.2.1 -->
+            <li class="home">
+                <span property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage"
+                       title="Go to Home."
+                       href="index.html"
+                       class="home"><span property="name">خانه</span></a><meta property="position" content="1">
+                </span>
+            </li>
+            <li class="post post-page current-item">
+                <span property="itemListElement" typeof="ListItem">
+                    <span property="name">بلاگ</span><meta property="position" content="2">
+                </span>
+            </li>
+        </ul>
+    </div>
+</header>
+
+<div class="container main-wrapper">
+    <div class="inner-page margin-default">
+        <div class="row row-eq-height_ ">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-xs-12">
+                <section class="blog-post">
+                    <article id="post-6615"
+                             class="post-6615 post type-post status-publish format-standard has-post-thumbnail hentry category-cardiology category-surgery tag-cardiology tag-food tag-health tag-neurosurgery">
+                        <div class="image">
+                            <img width="1600" height="1320"
+                                 src="~/Files/ArticleImages/Image/@Model.Image"
+                                 class="attachment-holamed-post size-holamed-post wp-post-image" alt=""
+                                 sizes="(max-width: 1600px) 100vw, 1600px" />
+                        </div>
+                        <div class="blog-info blog-info-post-top">
+                            <div class="blog-info-left">
+                                <ul>
+                                    <li class="ltx-cats-li">
+                                        <span class="ltx-cats">
+                                            <a href="#">@Model.Title</a>
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <div class="ltx-user">
+                                            <span class="info">توسط @Model.Author</span>
+                                        </div>
+                                    </li>
+                                    <li class="ltx-icon-date">
+                                        <span class="ltx-date"><span class="fa fa-clock-o"></span><span class="dt">@Model.PersianDate</span></span>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="blog-info-right">
+                                <ul>
+                                    @*<li class="ltx-icon-fav">
+                                        <span class="fa fa-eye"></span><i>1</i>
+                                    </li>*@
+                                    <li class="ltx-icon-comments"><span class="fa fa-comments"></span><i>@Model.CountVoute</i></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="description">
+                            <div class="text text-page">
+                                <p>
+                                   @Html.Raw(Model.Description)
+                                </p>
+                                <div class="clear"></div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                        <div class="blog-info-post-bottom">
+                            <div class="tags-line">
+                                <div class="tags-line-left">
+                                    <span class="tags">
+                                        <span class="tags-short">
+                                            @foreach(var item1 in ArticleTags)
+                                            {
+                                            <a href="#" rel="tag">@item1.Title</a>
+                                            }
+                                           
+                                        </span>
+                                    </span>
+                                </div>
+                                <div class="tags-line-right">
+                                    <ul class="ltx-sharing">
+                                        <li>
+                                            <a href="#">
+                                                <span class="ltx-social-color fa fa-facebook"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="ltx-social-color fa fa-twitter"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="ltx-social-color fa fa-google-plus"></span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span class="ltx-social-color fa fa-linkedin"></span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="ltx-related blog blog-block layout-two-cols">
+                            <h3>پست های مرتبط</h3>
+                            <div class="row">
+                                @Html.Action("RelatedPosts","Blog",new { @GroupArticleName=Model.GroupArticleName,@id=Model.Id})
+                            </div>
+                        </div>
+                    </article>
+
+
+
+
+
+
+
+
+
+                    <div id="comments" class="comments-area">
+
+
+                        <h3 class="comments-title">
+                            @Model.CountVoute کامنت
+                        </h3>
+
+                        @Html.Action("ShowComment", "Blog", new { @id = @Model.Id })
+                        @Html.Action("SendComment", "Blog", new { @id = @Model.Id })
+                   
+
+                    </div>
+
+
+
+
+
+
+
+
+                </section>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+@section script
+{
+    <script>
+        function submitForm() {
+            // Initiate Variables With Form Content
+
+            var email = $("#email3").val();
+            var name = $("#name").val();
+            var message = $("#message").val();
+            var ArticleId = $("#ArticleId").val();
+
+            $.ajax({
+                type: "POST",
+                url: "/Blog/PostComment",
+                data: "email=" + email + "&name=" + name + "&message=" + message + "&ArticleId=" + ArticleId,
+                success: function (text) {
+                    if (text == "success") {
+
+                        $("#submitButton").css("background-color", "green");
+                        $("#submitButton").val("ثبت شد");
+                 
+                        $("#email3").val("");
+                        $("#name").val("");
+                        $("#message").val("");
+
+
+                    } else {
+                        $("#submitButton").css("background-color", "red");
+                        $("#submitButton").val("خطا");
+                    }
+                }
+            });
+        }
+
+    </script>
+}

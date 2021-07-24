@@ -1,0 +1,226 @@
+﻿@model SpadStorePanel.Web.ViewModels.ProductListViewModel
+@{
+    Layout = "~/Views/Shared/_LayoutD.cshtml";
+    var productgroupid = ViewBag.ProductGroupId;
+}
+
+<div id="preloader"></div>
+
+<!--Header-->
+@Html.Action("HeaderSection", "Home")
+@Html.Action("ProductGroup", "Home")
+<!--End Header-->
+<!--BreadCrumb-->
+<header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs">
+    <div class="container">
+        <h1>محصولات</h1>
+        <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+            <!-- Breadcrumb NavXT 6.2.1 -->
+            <li class="home">
+                <span property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage"
+                       title="Go to Home." href="index.html"
+                       class="home"><span property="name">خانه</span></a><meta property="position" content="1">
+                </span>
+            </li>
+            <li class="archive post-product-archive current-item">
+                <span property="itemListElement"
+                      typeof="ListItem">
+                    <span property="name">محصولات</span><meta property="position" content="2">
+                </span>
+            </li>
+        </ul>
+    </div>
+</header>
+<!--End BreadCrumb-->
+<!--Main-->
+<div class="container main-wrapper">
+    <div class="inner-page margin-default">
+        <div class="row">
+            <div class="col-xl-9 col-lg-8 col-md-12 col-xs-12 text-page products-column-with-sidebar matchHeight float-left">
+                <header class="woocommerce-products-header"></header>
+                <div class="woocommerce-notices-wrapper"></div>
+                <p class="woocommerce-result-count">
+                    <select id="sort" onchange="GetGrid()">
+                        <option value="date">مرتب کردن</option>
+                        @*<option value="Date">بر اساس تاریخ</option>*@
+                        <option value="Name">بر اساس نام</option>
+                        <option value="Price">بر اساس قیمت</option>
+                    </select>
+                    <input type="hidden" name="paged" value="1" />
+
+                    <div id="grid"></div>
+</p>
+
+            </div>
+            <div class="col-xl-3 col-lg-4 col-md-12 col-xs-12 div-sidebar matchHeight float-left">
+                <div id="content-sidebar" class="content-sidebar woocommerce-sidebar widget-area" role="complementary">
+                    <aside id="woocommerce_product_search-2" class="widget woocommerce widget_product_search">
+                       
+                            <label class="screen-reader-text" for="woocommerce-product-search-field-0">
+                                Search
+                                for:
+                            </label>
+                            @using (Html.BeginForm("Index", "Shop", FormMethod.Post, new { @class = "woocommerce-product-search" }))
+                            {
+                                <div class="top-search input-group">
+                                    <input type="text" id="searchString" class="search-field"
+                                           placeholder="جستجوی محصول" value="" name="searchString" />
+                                    <button type="submit" value="Search">Search</button>
+                                </div>
+                            }
+                            <input type="hidden" name="post_type" value="product" />
+
+                       
+                    </aside>
+
+                    <aside id="woocommerce_product_categories-4" class="widget woocommerce widget_product_categories">
+                        <h3 class="header-widget">دسته بندی ها</h3>
+                        @if (ViewBag.ProductGroupName != null)
+                        {
+                            <h5>@ViewBag.ProductGroupName</h5>
+                        }
+                        <ul class="product-categories">
+                            @foreach (var item in Model.ProductGroups)
+                            {
+                                <li class="cat-item cat-item-256">
+                                    <a href="/Shop/Index/@item.Id">@item.Title</a>
+                                </li>
+                            }
+                        </ul>
+                    </aside>
+
+                    <aside id="woocommerce_price_filter-4" class="widget woocommerce widget_price_filter">
+                        <h3 class="header-widget">
+                            فیلتر
+                        </h3>
+
+                        <button type="button" class="collaps-btn" data-toggle="collapse" data-target="#brand">برند</button>
+                        <div id="brand" class="collapse">
+                            <ul>
+                                @foreach (var brand in Model.Brands)
+                                {
+                                    <div class="checkbox">
+                                        <input type="checkbox" class="filter-checkBox" id="b_@brand.Id"
+                                               onchange="GetGrid()"
+                                               value="@brand.Id"
+                                               name="brands">
+                                        <label for="b_@brand.Id">@brand.Name</label>
+                                    </div>
+                                }
+                            </ul>
+                        </div>
+
+
+                        <button type="button" class="collaps-btn" data-toggle="collapse" data-target="#price">قیمت</button>
+                        <div id="price" class="collapse">
+                            <ul>
+                                <div class="checkbox">
+                                    <input type="radio" class="filter-checkBox" onchange="GetGrid()" id="price1" value="0-5" name="price">
+                                    <label for="price1">تا500.000تومان</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="radio" class="filter-checkBox" onchange="GetGrid()" id="price2" value="5-20" name="price">
+                                    <label for="price2">2.000،000-500،000تومان</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="radio" class="filter-checkBox" onchange="GetGrid()" id="price3" value="20-50" name="price">
+                                    <label for="price3">5.000،000-2.000،000تومان</label>
+                                </div>
+                                <div class="checkbox">
+                                    <input type="radio" class="filter-checkBox" onchange="GetGrid()" id="price4" value="50-0" name="price">
+                                    <label for="price4">از5.000،000 تومان به بالا</label>
+                                </div>
+                            </ul>
+                        </div>
+
+
+                    </aside>
+                    @Html.Action("GetTags", "Shop")
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--End Main-->
+
+
+
+
+@section script
+{
+    <script>
+        function GetGrid(page) {
+            $("#preloader").show();
+            var pageNumber = 1;
+            if (page != null) {
+                pageNumber = page;
+            }
+           var sort = document.getElementById("sort").value;
+            //var take = $("#take").find(":selected").val();
+            var categoryId = @(Model.SelectedGroupId??null);
+            var searchString =  '@ViewBag.SearchString';
+            console.log(searchString);
+            var brands = [];
+            var priceFrom = null;
+            var priceTo = null;
+            var selectedPriceRange = $("input[name='price']:checked").val();
+            if (selectedPriceRange != undefined) {
+                var priceRangeArr = selectedPriceRange.split('-');
+                if (parseInt(priceRangeArr[0]) > 0) {
+                    priceFrom = parseInt(priceRangeArr[0] + "00000");
+                }
+                if (parseInt(priceRangeArr[1]) > 0) {
+                    priceTo = parseInt(priceRangeArr[1] + "00000");
+                }
+            }
+
+            $("input[name='brands']").map(function() {
+                if ($(this).prop("checked") === true) {
+                    brands.push(parseInt($(this).val()));
+                }
+            });
+            //var subFeatures = [];
+            //$("[name='subFeatures']").map(function() {
+            //    if ($(this).prop("checked") === true) {
+            //        subFeatures.push(parseInt($(this).val()));
+            //    }
+            //});
+            var grid = {
+                categoryId: categoryId,
+                searchString: searchString,
+                priceFrom: priceFrom,
+                priceTo: priceTo,
+                brands: brands.join('-'),
+                //subFeatures: subFeatures.join('-'),
+                pageNumber: pageNumber,
+                //take: take,
+                sort: sort
+            }
+             jQuery.ajax({
+                type: 'GET',
+                url: '/Shop/ProductsGrid',
+                data: grid,
+                success: function(data) {
+                    $("#grid").html(data);
+                },
+                error: function(data) {
+                    console.log("error");
+                    console.log(data);
+                },
+                complete: function() {
+                    $("#preloader").hide();
+                }
+            });
+        }
+    $(window).on('load', function(){ GetGrid();});
+    </script>
+
+}
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+﻿<div class="widget widget-banner-sidebar">
+    <div class="banner-sidebar-title">قسمت تبلیغات 280 در 280</div>
+    <!-- End .ad-title -->
+    @if (ViewBag.ImageAdvertiseBlog != null)
+    {
+        <div class="banner-sidebar banner-overlay">
+            <a href="#">
+                <img src="~/Files/StaticContentImages/Image/@ViewBag.ImageAdvertiseBlog" alt="بنر">
+            </a>
+        </div><!-- End .banner-ad -->
+    }
+
+</div><!-- End .widget -->
+
+@Html.Action("CategoryBlog","Blog")
+
+<div class="widget widget-text">
+    <h3 class="widget-title">درباره بخش اخبار</h3><!-- End .widget-title -->
+    @if (ViewBag.ShortDescriptionBlog != null)
+    {
+        <div class="widget-text-content">
+            <p>
+                @ViewBag.ShortDescriptionBlog
+            </p>
+        </div><!-- End .widget-text-content -->
+    }
+
+</div><!-- End .widget -->

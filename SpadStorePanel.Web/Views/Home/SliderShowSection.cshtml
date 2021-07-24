@@ -1,0 +1,257 @@
+﻿@model IEnumerable<SpadStorePanel.Core.Models.StaticContentDetail>
+
+
+<section data-vc-full-width="true" data-vc-full-width-init="false"
+         data-vc-stretch-content="true"
+         class="vc_section bg-color-black ltx-sr ltx-sr-effect-fade_in ltx-sr-id-1173072137 ltx-sr-el-text_el ltx-sr-delay-500 ltx-sr-duration-300 ltx-sr-sequences-100">
+    <div data-vc-full-width="true" data-vc-full-width-init="false"
+         data-vc-stretch-content="true" class="vc_row wpb_row vc_row-fluid vc_row-no-padding">
+        <div class="wpb_column vc_column_container vc_col-sm-12">
+            <div class="vc_column-inner">
+                <div class="wpb_wrapper">
+                    <div class="slider-zoom  zoom-default zoom-style-default zoom-origin-center-center overlay-plain bullets-true zoom-content-effect-fade-top"
+                         id="like_sc_zoom_slider_10283842" data-zs-prev="" data-zs-next=""
+                         data-zs-overlay="plain" data-zs-initzoom="1.2" data-zs-speed="20000"
+                         data-zs-interval="8000" data-zs-switchSpeed="7000"
+                         data-zs-arrows="false" data-zs-bullets="true"
+                         data-zs-src='[&#34;../../Content/client/assets/Slider/1.jpg&#34;,&#34;../../Content/client/assets/Slider/2.jpg&#34;,&#34;../../Content/client/assets/Slider/3.jpg&#34;,&#34;../../Content/client/assets/Slider/4.jpg&#34;]'>
+                        <div class="ltx-social ltx-nav-second">
+                            <ul>
+                                <li>
+                                    <a href="#" target="_self">
+                                        <span class="fa fa-google-plus"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">
+                                        <span class="fa fa-instagram"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">
+                                        <span class="fa fa-facebook-f"></span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_self">
+                                        <span class="fa fa-twitter"></span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="container ltx-zs-slider-wrapper">
+                            @if (Model.Count() != 0)
+                            {
+                                int i = 0;
+                                foreach (var item in Model)
+                                {
+                                    if (i == 0)
+                                    {<div class="ltx-zs-slider-inner  inited visible  ltx-zs-slide-@i"
+                                          data-index="@i">
+                                            <div class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12 text-align-center">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="es-resp">
+                                                                <div class="visible-xl"
+                                                                     style="height: 440px;"></div>
+                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                     style="height: 300px;"></div>
+                                                                <div class="visible-md"
+                                                                     style="height: 250px;"></div>
+                                                                <div class="visible-sm "
+                                                                     style="height: 250px;"></div>
+                                                                <div class="visible-ms"
+                                                                     style="height: 250px;"></div>
+                                                                <div class="visible-xs"
+                                                                     style="height: 200px;"></div>
+                                                            </div>
+                                                            <div class="heading  heading-large default align-center color-white subcolor-main transform-default icon-type-hidden heading-tag-h1"
+                                                                 id="like_sc_header_1108120208">
+                                                                <h1 class="header -id-like_sc_header_1108120208519501137  -effect-fade_in -el-block -delay-0 -duration-1000 -sequences-0">
+                                                                    @item.Title
+                                                                </h1>
+                                                            </div>
+                                                            <div class="es-resp">
+                                                                <div class="visible-xl"
+                                                                     style="height: 24px;"></div>
+                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                     style="height: 24px;"></div>
+                                                                <div class="visible-md"
+                                                                     style="height: 24px;"></div>
+                                                                <div class="visible-sm "
+                                                                     style="height: 24px;"></div>
+                                                                <div class="visible-ms"
+                                                                     style="height: 24px;"></div>
+                                                                <div class="visible-xs"
+                                                                     style="height: 24px;"></div>
+                                                            </div>
+                                                            <div class="ltx-content-width col-align-center"
+                                                                 id="like_sc_content_width_1438300091"
+                                                                 style="max-width: 750px">
+                                                                <div class="ltx-wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <p style="text-align: center">
+                                                                                <span class="text-lg" style="text-align: center">
+                                                                                    @Html.Raw(item.Description)
+                                                                                </span>
+                                                                            </p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="es-resp">
+                                                                <div class="visible-xl"
+                                                                     style="height: 48px;"></div>
+                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                     style="height: 48px;"></div>
+                                                                <div class="visible-md"
+                                                                     style="height: 48px;"></div>
+                                                                <div class="visible-sm "
+                                                                     style="height: 48px;"></div>
+                                                                <div class="visible-ms"
+                                                                     style="height: 48px;"></div>
+                                                                <div class="visible-xs"
+                                                                     style="height: 32px;"></div>
+                                                            </div>
+                                                            <div class="btn-wrap btn-wrap-inline">
+                                                                <a href="/Shop"
+                                                                   class="btn  btn-lg btn-black color-hover-white"
+                                                                   id="like_sc_button_1067014083">
+                                                                    موارد
+                                                                    بیشتر
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="es-resp">
+                                                                <div class="visible-xl"
+                                                                     style="height: 320px;"></div>
+                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                     style="height: 320px;"></div>
+                                                                <div class="visible-md"
+                                                                     style="height: 200px;"></div>
+                                                                <div class="visible-sm "
+                                                                     style="height: 200px;"></div>
+                                                                <div class="visible-ms"
+                                                                     style="height: 200px;"></div>
+                                                                <div class="visible-xs"
+                                                                     style="height: 200px;"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>}
+
+
+                                    else
+                                    { <div class="ltx-zs-slider-inner  ltx-zs-slide-@i" data-index="@i">
+                                            <div class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex">
+                                                <div class="wpb_column vc_column_container vc_col-sm-12 text-align-center">
+                                                    <div class="vc_column-inner">
+                                                        <div class="wpb_wrapper">
+                                                            <div class="es-resp">
+                                                                <div class="visible-xl"
+                                                                     style="height: 440px;"></div>
+                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                     style="height: 300px;"></div>
+                                                                <div class="visible-md"
+                                                                     style="height: 250px;"></div>
+                                                                <div class="visible-sm "
+                                                                     style="height: 250px;"></div>
+                                                                <div class="visible-ms"
+                                                                     style="height: 250px;"></div>
+                                                                <div class="visible-xs"
+                                                                     style="height: 200px;"></div>
+                                                            </div>
+                                                            <div class="heading  heading-large default align-center color-white subcolor-main transform-default icon-type-hidden heading-tag-h1"
+                                                                 id="like_sc_header_187958223">
+                                                                <h1 class="header -id-like_sc_header_187958223409658640  -effect-fade_in -el-block -delay-0 -duration-1000 -sequences-0">
+                                                                    @item.Title
+                                                                </h1>
+                                                            </div>
+                                                            <div class="es-resp">
+                                                                <div class="visible-xl"
+                                                                     style="height: 24px;"></div>
+                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                     style="height: 24px;"></div>
+                                                                <div class="visible-md"
+                                                                     style="height: 24px;"></div>
+                                                                <div class="visible-sm "
+                                                                     style="height: 24px;"></div>
+                                                                <div class="visible-ms"
+                                                                     style="height: 24px;"></div>
+                                                                <div class="visible-xs"
+                                                                     style="height: 24px;"></div>
+                                                            </div>
+                                                            <div class="ltx-content-width col-align-center"
+                                                                 id="like_sc_content_width_202862960"
+                                                                 style="max-width: 750px">
+                                                                <div class="ltx-wrapper">
+                                                                    <div class="wpb_text_column wpb_content_element ">
+                                                                        <div class="wpb_wrapper">
+                                                                            <p style="text-align: center">
+                                                                                <span class="text-lg" style="text-align: center">
+                                                                                    @Html.Raw(item.Description)
+                                                                                </span>
+                                                                            </p>
+
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="es-resp">
+                                                                <div class="visible-xl"
+                                                                     style="height: 48px;"></div>
+                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                     style="height: 48px;"></div>
+                                                                <div class="visible-md"
+                                                                     style="height: 48px;"></div>
+                                                                <div class="visible-sm "
+                                                                     style="height: 48px;"></div>
+                                                                <div class="visible-ms"
+                                                                     style="height: 48px;"></div>
+                                                                <div class="visible-xs"
+                                                                     style="height: 32px;"></div>
+                                                            </div>
+                                                            <div class="btn-wrap btn-wrap-inline">
+                                                                <a href="/Shop"
+                                                                   class="btn  btn-lg btn-black color-hover-white"
+                                                                   id="like_sc_button_1929032209">
+                                                                    دیدن بیشتر...
+                                                                </a>
+                                                            </div>
+
+                                                            <div class="es-resp">
+                                                                <div class="visible-xl"
+                                                                     style="height: 320px;"></div>
+                                                                <div class="hidden-xl hidden-md hidden-sm hidden-ms hidden-xs"
+                                                                     style="height: 320px;"></div>
+                                                                <div class="visible-md"
+                                                                     style="height: 200px;"></div>
+                                                                <div class="visible-sm "
+                                                                     style="height: 200px;"></div>
+                                                                <div class="visible-ms"
+                                                                     style="height: 200px;"></div>
+                                                                <div class="visible-xs"
+                                                                     style="height: 200px;"></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>}
+
+                                    i++;
+                                }
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="vc_row-full-width vc_clearfix"></div>
+</section>

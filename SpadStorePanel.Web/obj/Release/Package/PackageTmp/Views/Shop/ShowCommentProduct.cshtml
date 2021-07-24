@@ -1,0 +1,160 @@
+﻿@model IEnumerable<SpadStorePanel.Core.Models.ProductComment>
+
+
+
+
+
+@foreach (var item in Model)
+{
+
+    <li class="comment even thread-even depth-1 comment_item">
+        <article id="comment-34" class="comment-body comment-single">
+            @*<div class="comment-author-avatar">
+                <img alt=""
+                     src="~/Files/UserAvatars/@item.immage"
+                     class="avatar avatar-64 photo" height="64" width="64">
+            </div>*@
+            <div class="comment-content">
+                <div class="comment-info">
+                    <h6 class="comment-author">@item.Name</h6>
+
+                    <span class="comment-date-time">
+                        <span class="comment-date">
+                            <span class="fa fa-clock-o"></span>
+                            <span class="date-value">
+                                <span class="comment_date_value">@item.AddedDate</span>
+                                @*<span class="comment-time">1:07 بعد از ظهر</span>*@
+                            </span>
+                        </span>
+                    </span>
+
+                </div>
+                <div class="comment_text_wrap">
+                    <div class="comment-text">
+                        <p>
+                            @item.Message
+                        </p>
+                    </div>
+                </div>
+                @*<div class="comment-reply">
+                    <a rel="nofollow"
+                       class="comment-reply-link"
+                       href="#"
+                       aria-label="Reply to Sonya Reichert">
+                        جواب
+                        دادن
+                    </a>
+                </div>*@
+            </div>
+        </article>
+        @*<ul class="children">
+            <li class="comment byuser comment-author-admin bypostauthor odd alt depth-2 comment_item">
+                <article id="comment-67" class="comment-body comment-single">
+                    <div class="comment-author-avatar">
+                        <img alt=""
+                             src="http://1.gravatar.com/avatar/a2b7829954665b642df2c30d97767042?s=64&amp;d=mm&amp;r=g"
+                             class="avatar avatar-64 photo" height="64"
+                             width="64">
+                    </div>
+                    <div class="comment-content">
+                        <div class="comment-info">
+                            <h6 class="comment-author">
+                                حسین رضایی<a href="#"></a>
+                            </h6>
+
+                            <span class="comment-date-time">
+                                <span class="comment-date">
+                                    <span class="fa fa-clock-o"></span>
+                                    <span class="date-value">
+                                        <span class="comment_date_value">23 اسفند 1399</span>
+                                        <span class="comment-time">8:41 am</span>
+                                    </span>
+                                </span>
+                            </span>
+
+                        </div>
+                        <div class="comment_text_wrap">
+                            <div class="comment-text">
+                                <p>
+                                    امیر آباد یکی از بهترین ها در زمینه فروش آنلاین
+                                    دارو است ،
+                                    امیر آباد یکی از بهترین ها در زمینه فروش آنلاین
+                                    دارو است ،
+                                    امیر آباد یکی از بهترین ها در زمینه فروش آنلاین
+                                    دارو است ،
+                                    امیر آباد یکی از بهترین ها در زمینه فروش آنلاین
+                                    دارو است ،
+                                </p>
+                            </div>
+                        </div>
+                        <div class="comment-reply">
+                            <a rel="nofollow"
+                               class="comment-reply-link"
+                               href="#">Reply</a>
+                        </div>
+                    </div>
+                </article>
+                <ul class="children">
+                    <li class="comment byuser comment-author-admin bypostauthor even depth-3 comment_item">
+                        <article id="comment-68"
+                                 class="comment-body comment-single">
+                            <div class="comment-author-avatar">
+                                <img alt=""
+                                     src="http://1.gravatar.com/avatar/a2b7829954665b642df2c30d97767042?s=64&amp;d=mm&amp;r=g"
+                                     class="avatar avatar-64 photo" height="64"
+                                     width="64">
+                            </div>
+                            <div class="comment-content">
+                                <div class="comment-info">
+                                    <h6 class="comment-author">
+                                        حسین حسینی<a href="#"></a>
+                                    </h6>
+
+                                    <span class="comment-date-time">
+                                        <span class="comment-date">
+                                            <span class="fa fa-clock-o"></span>
+                                            <span class="date-value">
+                                                <span class="comment_date_value">23 اسفند 1399</span>
+                                                <span class="comment-time">9:30 بعد از ظهر</span>
+                                            </span>
+                                        </span>
+                                    </span>
+
+                                </div>
+                                <div class="comment_text_wrap&quot;">
+                                    <div class="comment-text">
+                                        <p>
+                                            امیر آباد یکی از بهترین ها در زمینه
+                                            فروش
+                                            آنلاین دارو است ،
+                                            امیر آباد یکی از بهترین ها در زمینه
+                                            فروش
+                                            آنلاین دارو است ،
+                                            امیر آباد یکی از بهترین ها در زمینه
+                                            فروش
+                                            آنلاین دارو است ،
+                                            امیر آباد یکی از بهترین ها در زمینه
+                                            فروش
+                                            آنلاین دارو است ،
+                                            امیر آباد یکی از بهترین ها در زمینه
+                                            فروش
+                                            آنلاین دارو است ،
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="comment-reply">
+                                    <a rel="nofollow"
+                                       class="comment-reply-link"
+                                       href="#">
+                                        جواب
+                                        دادن
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </li><!-- #comment-## -->
+                </ul><!-- .children -->
+            </li><!-- #comment-## -->
+        </ul>*@<!-- .children -->
+    </li><!-- #comment-## -->
+}

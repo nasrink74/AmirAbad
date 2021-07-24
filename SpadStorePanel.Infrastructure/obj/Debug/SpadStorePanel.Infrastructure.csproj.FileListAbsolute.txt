@@ -1,0 +1,527 @@
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.Initial.resources
+C:\Users\spad\Desktop\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.Initial.resources
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+D:\Spad\Projects\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.Initial.resources
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.Initial.resources
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\Keymasi\Desktop\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.Initial.resources
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.caegory.resources
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\1400.2.4\1400.2.4\1400.2.1\1400.2.1\Darokhone\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.Initial.resources
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.caegory.resources
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.Initial.resources
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.caegory.resources
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+D:\پروژه ها\پروژه 2\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.Initial.resources
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.caegory.resources
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig2.resources
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig3.resources
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\PROJECSE\SE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.Initial.resources
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.caegory.resources
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig2.resources
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig3.resources
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+D:\پروژه ها\پروژه 2\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.Initial.resources
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.caegory.resources
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig2.resources
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig3.resources
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.Initial.resources
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.caegory.resources
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig2.resources
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig3.resources
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\wrong\PROJECSE\PROJECSE\PROJECSE\SE\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig1.resources
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig1.resources
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\New folder\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig1.resources
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Users\User\Desktop\AriaSini\AriaSini\AriaSystem\AriaSystem\AriaSystem\SpadStorePanel\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig1.resources
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Projects\AriaSini\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll.config
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Infrastructure.pdb
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.pdb
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\SpadStorePanel.Core.dll.config
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.xml
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Mvc.xml
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.xml
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.Razor.xml
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csprojAssemblyReference.cache
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.Migrations.mig1.resources
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.GenerateResource.cache
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.csproj.CopyComplete
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.dll
+C:\Projects\AmirAbad\SpadStorePanel\SpadStorePanel.Infrastructure\obj\Debug\SpadStorePanel.Infrastructure.pdb

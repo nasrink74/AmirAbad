@@ -1,0 +1,107 @@
+﻿@using SpadStorePanel.Web.ViewModels
+@model LoginViewModel
+@using Microsoft.AspNet.Identity
+@{
+    Layout = "/Views/Shared/_LayoutD.cshtml";
+}
+
+
+<div id="preloader"></div>
+<!--Header-->
+@Html.Action("HeaderSection", "Home")
+@Html.Action("ProductGroup", "Home")
+<!--End Header-->
+<header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs">
+    <div class="container">
+        <h1>ورود</h1>
+        <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+            <!-- Breadcrumb NavXT 6.2.1 -->
+            <li class="home">
+                <span property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage"
+                       title="Go to Home." href="index.html"
+                       class="home"><span property="name">خانه</span></a><meta property="position" content="1">
+                </span>
+            </li>
+            <li class="post post-page current-item">
+                <span property="itemListElement" typeof="ListItem">
+                    <span property="name">ورود</span><meta property="position" content="2">
+                </span>
+            </li>
+        </ul>
+    </div>
+</header>
+<div class="container main-wrapper">
+    <!-- Content -->
+    <div class="inner-page text-page margin-default">
+        <div class="row">
+            <div class=" col-md-12 text-page">
+                <article id="post-617" class="post-617 page type-page status-publish hentry">
+                    <div class="entry-content clearfix" id="entry-div">
+                        <div class="woocommerce">
+                            <div class="woocommerce-notices-wrapper"></div>
+
+                            <h2>Login</h2>
+
+                            @using (Html.BeginForm("Login", "Account", new { ReturnUrl = ViewBag.ReturnUrl }, FormMethod.Post, new { @class = "theme-form", role = "form" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                    @Html.LabelFor(model => model.UserName, new { })
+                                    @*<input type="text" class="woocommerce-Input woocommerce-Input--text input-text"
+                name="username" id="username" autocomplete="username" value="" />*@
+                                    @Html.TextBoxFor(m => m.UserName, new { @class = "woocommerce-Input woocommerce-Input--text input-text", placeholder = "نام کاربری", autocomplete = "username", @type = "text", @name = "username", @id = "username", value = "" })
+                                    @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+
+
+                                </p>
+                                <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+                                    @Html.LabelFor(model => model.Password, new { })
+                                    @*<input class="woocommerce-Input woocommerce-Input--text input-text" type="password"
+                name="password" id="password" autocomplete="current-password" />*@
+
+                                    @Html.TextBoxFor(m => m.Password, new { @class = "woocommerce-Input woocommerce-Input--text input-text", type = "Password", placeholder = "رمز عبور", autocomplete = "current-password", name = "password" ,id = "password" })
+                                    @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+                                </p>
+
+                                @*<label class="woocommerce-form__label woocommerce-form__label-for-checkbox inline">
+                <input class="woocommerce-form__input woocommerce-form__input-checkbox"
+                       name="rememberme" type="checkbox" id="rememberme" value="forever" />
+                <span>من را به یاد بسپار</span>
+            </label>*@
+                                <p class="form-row">
+
+                                    <input type="hidden" id="woocommerce-login-nonce" name="woocommerce-login-nonce"
+                                           value="119da6d288" /><input type="hidden" name="_wp_http_referer"
+                                                                       value="/my-account/" />
+                                    <button type="submit" class="woocommerce-Button button" name="login" value="Log in">
+                                        ورود
+                                    </button>
+
+                                </p>
+                                <p class="woocommerce-LostPassword lost_password">
+                                    <a href="/Account/ForgotPassword">رمز عبور را فراموش کرده ام !</a>
+                                </p>
+                                <p class="woocommerce-LostPassword lost_password">
+                                    @Html.ActionLink("ایجاد حساب کاربری", "Register", "Account")
+                                </p>
+
+
+                            }
+
+
+                            </div>
+                    </div>
+                </article>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+@section script {
+    @Scripts.Render("~/bundles/jqueryval")
+}

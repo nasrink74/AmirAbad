@@ -1,0 +1,137 @@
+﻿@model SpadStorePanel.Web.ViewModels.CartModel
+
+<div class="ltx-topbar-block hidden-ms hidden-xs ltx-topbar-before-transparent ltx-box-shadow">
+    <div class="container">
+        <div class="vc_row wpb_row vc_row-fluid vc_row-o-content-middle vc_row-flex">
+            <div class="wpb_column vc_column_container vc_col-sm-12 vc_col-lg-9 vc_col-md-12">
+                <div class="vc_column-inner">
+                    <div class="wpb_wrapper">
+                        <ul class="ltx-block-icon icons-count-3  ltx-icon-h-right align-left ltx-icon-type-circle layout-inline "
+                            id="like_sc_block_icon_157973812">
+                            <li>
+                                <div data-mh="ltx-block-icon-in-1448" class="">
+                                    <span class="ltx-icon fa fa-phone  bg-bg-transparent"
+                                          data-mh="ltx-icon-span-like_sc_block_icon_157973812"></span>
+                                    <div class="block-right"><h6 class="header"><span> تلفن </span> <a href="tel:@Html.Raw(ViewBag.Phone)">@Html.Raw(ViewBag.Phone)</a> </h6></div>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-mh="ltx-block-icon-in-1448" class="">
+                                    <span class="ltx-icon fa fa-map-marker  bg-bg-transparent"
+                                          data-mh="ltx-icon-span-like_sc_block_icon_157973812"></span>
+                                    <div class="block-right">
+                                        <h6 class="header">
+                                            <span> آدرس : </span> @Html.Raw(ViewBag.Address)
+                                        
+                                        </h6>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div data-mh="ltx-block-icon-in-1448" class="">
+                                    <span class="ltx-icon fa fa-clock-o  bg-bg-transparent"
+                                          data-mh="ltx-icon-span-like_sc_block_icon_157973812"></span>
+                                    <div class="block-right">
+                                        <h6 class="header">
+                                            <span> ساعت کاری </span>@ViewBag.WorkTime<br />
+                                        </h6>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="wpb_column vc_column_container vc_col-sm-3 vc_hidden-md vc_hidden-sm vc_hidden-xs text-align-right">
+                <div class="vc_column-inner vc_custom_1541683584708">
+                    <div class="wpb_wrapper">
+                        <div class="wpb_text_column wpb_content_element  vc_custom_1541269623923">
+                            <div class="wpb_wrapper">
+                                <div class="ltx-navbar-icons">
+                                    <ul>
+                                        @if (Request.IsAuthenticated)
+                                        {
+
+                                        <li class="ltx-fa-icon ltx-nav-profile menu-item-has-children  hidden-md hidden-sm hidden-ms hidden-xs">
+                                            <a href="/Account/LogOff2">
+
+                                                @*<span class="fa fa-sign-out-alt"></span>*@
+                                                <i class="fa fa-share-square-o fa-1x" aria-hidden="true"></i>
+
+
+                                            </a>
+                                            
+                                        </li>
+                                        }
+                                        else
+                                        {
+                                            <li class="ltx-fa-icon ltx-nav-profile menu-item-has-children  hidden-md hidden-sm hidden-ms hidden-xs">
+                                                <a href="/Account/Login">
+                                                    <span class="fa fa-user-circle-o user-icon"></span>
+                                                </a>
+                                            </li>
+                                        }
+
+                                       @*<li class="ltx-fa-icon ltx-nav-search   hidden-md hidden-sm hidden-ms hidden-xs">
+                                                <div class="top-search">
+                                                    <a href="#" id="top-search-ico"
+                                                       class="top-search-ico entypo entypo-search" aria-hidden="true"></a>
+                                                    <a href="#" id="top-search-ico-close"
+                                                       class="top-search-ico-close fa fa-close" aria-hidden="true"></a>
+                                                    <input placeholder="Search" value="" type="text">
+                                                </div>
+                                            </li>*@
+
+                                        @*@using (Html.BeginForm("Search", "Shop", FormMethod.Post, new { @class = "big-deal-form" }))
+                                        {
+                                            <li class="ltx-fa-icon ltx-nav-search   hidden-md hidden-sm hidden-ms hidden-xs">
+                                                <div class="top-search input-group">
+                                                    <a href="#" id="top-search-ico"
+                                                       class="top-search-ico entypo entypo-search" aria-hidden="true"></a>
+                                                    <a href="#" id="top-search-ico-close"
+                                                       class="top-search-ico-close fa fa-close" aria-hidden="true"></a>
+                                                    <button type="submit" id="top-search-ico-close"
+                                                            class="top-search-ico-close fa fa-check" aria-hidden="true"></button>
+                                                    <input placeholder="Search" value="" type="text" name="txtsearch" id="txtsearch">
+                                                </div>
+                                            </li>
+
+                                        }*@
+
+
+
+                                        @{
+                                            int i = 0;
+
+                                            if (Model?.CartItems != null && Model.CartItems.Any())
+                                            {
+                                                foreach (var item in Model.CartItems)
+                                                {
+                                                    i += @item.Quantity;
+                                                }
+                                            }
+                                        }
+
+                                        <li class="ltx-fa-icon ltx-nav-cart  hidden-md hidden-sm hidden-ms hidden-xs">
+                                            <div class="cart-navbar">
+                                                <a href="/Cookie/CardShow" class="ltx-cart cart shop_table"
+                                                   title="View your shopping cart">
+                                                    <span class="cart-contents header-cart-count count">@i</span><i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                                                </a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

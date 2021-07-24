@@ -1,0 +1,583 @@
+﻿@model List<SpadStorePanel.Core.Models.StaticContentDetail>
+@{
+    var RowIndex = 0;
+}
+@*<section class="collection-banner b-g-white section-py-space">
+        <div class="custom-container">
+            <div class="row collection-p1">
+                @if (Model.Count() != 0)
+                {
+                    foreach (var item in Model)
+                    {
+
+
+
+                        <div class="col-md-4 col-sm-12">
+                            <div class="row">
+                                @if (RowIndex == 0)
+                                {
+                                    <div class="col-md-12 ">
+                                        <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                            <div class="collection-img">
+                                                <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                            </div>
+                                            <div class="collection-banner-contain ">
+                                                <div>
+                                                    <h3>پیشنهاد ویژه</h3>
+                                                    <h4>@item.Title</h4>
+                                                    <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                        شروع خرید
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                @if (RowIndex == 1)
+                                {
+                                    <div class="col-md-12 ">
+                                        <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                            <div class="collection-img">
+                                                <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                            </div>
+                                            <div class="collection-banner-contain ">
+                                                <div>
+                                                    <h3>تا 50% تخفیف</h3>
+                                                    <h4>@item.Title</h4>
+                                                    <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                        شروع خرید
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        if (RowIndex == 2)
+                        {
+                            <div class="col-md-4 ">
+                                <div class="collection-banner-main banner-11 banner-style3 p-right p-top  text-center ">
+                                    <div class="collection-img">
+                                        <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>محصول ویژه</h3>
+                                            <h4>@item.Title</h4>
+                                            <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+
+                        <div class="col-md-4 col-sm-12">
+                            <div class="row">
+                                @if (RowIndex == 3)
+                                {
+                                    <div class="col-md-12 ">
+                                        <div class="collection-banner-main banner-10  banner-style3 text-center p-right">
+                                            <div class="collection-img">
+                                                <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                            </div>
+                                            <div class="collection-banner-contain ">
+                                                <div>
+                                                    <h3>سبک جدید</h3>
+                                                    <h4>@item.Title</h4>
+                                                    <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                        شروع خرید
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                                @if (RowIndex == 4)
+                                {
+                                    <div class="col-md-12 ">
+                                        <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                            <div class="collection-img">
+                                                <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                            </div>
+                                            <div class="collection-banner-contain ">
+                                                <div>
+                                                    <h3>بهترین تخفیف </h3>
+                                                    <h4>@item.Title</h4>
+                                                    <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                        شروع خرید
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                }
+                            </div>
+                        </div>
+
+                        RowIndex++;
+                    }
+
+                }
+                else
+                {
+                    <div class="col-12 col-xl-8">
+                        <a href="#">
+                            محصولی وجود ندارد
+                        </a>
+                    </div>
+                }
+            </div>
+        </div>
+    </section>*@
+
+@*<section class="collection-banner b-g-white section-py-space">
+        <div class="custom-container">
+            <div class="row collection-p1">
+                @for(int i = 0; i < Model.Count(); i++)
+                {
+                    Model[i].
+                }
+                <div class="col-4">
+                           <div class="row">
+                                 <div class="col-12">
+
+
+                                         <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                             <div class="collection-img">
+                                                 <img src="assets/pic/topIndex/fourTopIndex.png" class="img-fluid bg-img  " alt="banner">
+                                             </div>
+                                             <div class="collection-banner-contain ">
+                                                 <div>
+                                                     <h3>پیشنهاد ویژه</h3>
+                                                     <h4>محصول</h4>
+                                                     <a href="product-page(no-sidebar).html" class="btn btn-rounded btn-xs" tabindex="0">
+                                                         شروع خرید
+                                                     </a>
+                                                 </div>
+                                             </div>
+                                         </div>
+
+
+
+                                 </div>
+
+                           </div>
+                           <div class="row">
+                               <div class="col-12">
+
+
+                                       <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                           <div class="collection-img">
+                                               <img src="assets/pic/topIndex/fiveTopIndex.png" class="img-fluid bg-img  " alt="banner">
+                                           </div>
+                                           <div class="collection-banner-contain ">
+                                               <div>
+                                                   <h3>تا 50% تخفیف</h3>
+                                                   <h4>محصول</h4>
+                                                   <a href="product-page(no-sidebar).html" class="btn btn-rounded btn-xs" tabindex="0">
+                                                       شروع خرید
+                                                   </a>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+
+
+
+                               </div>
+                </div>
+                <div class="col-4">
+
+                        <div class="collection-banner-main banner-11 banner-style3 p-right p-top  text-center ">
+                            <div class="collection-img">
+                                <img src="assets/pic/topIndex/sixTopIndex.png" class="img-fluid bg-img  " alt="banner">
+                            </div>
+                            <div class="collection-banner-contain ">
+                                <div>
+                                    <h3>محصول ویژه</h3>
+                                    <h4>محصول</h4>
+                                    <a href="product-page(no-sidebar).html" class="btn btn-rounded btn-xs" tabindex="0">
+                                        شروع خرید
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+                <div class="col-4">
+
+                    <div class="row">
+                        <div class="col-12">
+
+
+
+                                <div class="collection-banner-main banner-10  banner-style3 text-center p-right">
+                                    <div class="collection-img">
+                                        <img src="assets/pic/topIndex/OneTopIndex.png" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>سبک جدید</h3>
+                                            <h4>محصول</h4>
+                                            <a href="product-page(no-sidebar).html" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+
+
+
+                                <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                    <div class="collection-img">
+                                        <img src="assets/pic/topIndex/twoTopIndex.png" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>بهترین تخفیف </h3>
+                                            <h4>محصول</h4>
+                                            <a href="product-page(no-sidebar).html" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+
+
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>*@
+
+
+
+
+
+@*if (Model.Count() != 0)
+        {
+            foreach (var item in Model)
+            {
+
+                if (RowIndex == 0)
+                {<div class="col-md-4 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                    <div class="collection-img">
+                                        <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>پیشنهاد ویژه</h3>
+                                            <h4>@item.Title</h4>
+                                            <a href="product-page(no-sidebar).html" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                }
+                if (RowIndex == 1)
+                {
+                    <div class="row">
+                        <div class="col-md-4 col-sm-12">
+                            <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                <div class="collection-img">
+                                    <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                </div>
+                                <div class="collection-banner-contain ">
+                                    <div>
+                                        <h3>پیشنهاد ویژه</h3>
+                                        <h4>@item.Title</h4>
+                                        <a href="product-page(no-sidebar).html" class="btn btn-rounded btn-xs" tabindex="0">
+                                            شروع خرید
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+                if (RowIndex == 2)
+                {
+                    <div class="col-md-4 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                    <div class="collection-img">
+                                        <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>پیشنهاد ویژه</h3>
+                                            <h4>@item.Title</h4>
+                                            <a href="product-page(no-sidebar).html" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+
+                RowIndex++;
+                if (RowIndex == 0)
+                    {
+                        <div class="col-md-4 col-sm-12">
+                            <div class="col-md-12 ">
+                                <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                    <div class="collection-img">
+                                        <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>پیشنهاد ویژه</h3>
+                                            <h4>@item.Title</h4>
+                                            <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    if (RowIndex == 1)
+                    {
+                        <div class="col-md-4 col-sm-12">
+                            <div class="col-md-12 ">
+                                <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                    <div class="collection-img">
+                                        <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>پیشنهاد ویژه</h3>
+                                            <h4>@item.Title</h4>
+                                            <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    if (RowIndex == 2)
+                    {
+                        <div class="col-md-4 ">
+                            <div class="collection-banner-main banner-11 banner-style3 p-right p-top  text-center ">
+                                <div class="collection-img">
+                                    <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                </div>
+                                <div class="collection-banner-contain ">
+                                    <div>
+                                        <h3>محصول ویژه</h3>
+                                        <h4>@item.Title</h4>
+                                        <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                            شروع خرید
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> }
+
+                    if (RowIndex == 3)
+                    {
+                        <div class="col-md-4 col-sm-12">
+                            <div class="col-md-12 ">
+                                <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                    <div class="collection-img">
+                                        <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>پیشنهاد ویژه</h3>
+                                            <h4>@item.Title</h4>
+                                            <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+                    if (RowIndex == 4)
+                    {
+                        <div class="col-md-4 col-sm-12">
+                            <div class="col-md-12 ">
+                                <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                    <div class="collection-img">
+                                        <img src="~/Files/StaticContentImages/Image/@item.Image" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>پیشنهاد ویژه</h3>
+                                            <h4>@item.Title</h4>
+                                            <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+
+            }
+        }
+        else
+        {
+            <div class="col-12 col-xl-8">
+                <a href="#">
+                    محصولی وجود ندارد
+                </a>
+            </div>
+        }*@
+
+
+
+
+
+
+
+
+
+    
+
+
+<section class="collection-banner b-g-white section-py-space">
+    <div class="custom-container">
+        <div class="row collection-p1">
+            @if (Model.Count() != 0)
+            {
+               
+                    <div class="col-md-4 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                    <div class="collection-img">
+                                        <img src="~/Files/StaticContentImages/Image/@Model[0].Image" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>پیشنهاد ویژه</h3>
+                                            <h4>@Model[0].Title</h4>
+                                            <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                    <div class="collection-img">
+                                        <img src="~/Files/StaticContentImages/Image/@Model[1].Image" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>تا 50% تخفیف</h3>
+                                            <h4>@Model[1].Title</h4>
+                                            <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 ">
+                        <div class="collection-banner-main banner-11 banner-style3 p-right p-top  text-center ">
+                            <div class="collection-img">
+                                <img src="~/Files/StaticContentImages/Image/@Model[2].Image" class="img-fluid bg-img  " alt="banner">
+                            </div>
+                            <div class="collection-banner-contain ">
+                                <div>
+                                    <h3>محصول ویژه</h3>
+                                    <h4>@Model[2].Title</h4>
+                                    <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                        شروع خرید
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12 ">
+                                <div class="collection-banner-main banner-10  banner-style3 text-center p-right">
+                                    <div class="collection-img">
+                                        <img src="~/Files/StaticContentImages/Image/@Model[3].Image" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>سبک جدید</h3>
+                                            <h4>@Model[3].Title</h4>
+                                            <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-12 ">
+                                <div class="collection-banner-main banner-10 banner-style3 p-right text-center">
+                                    <div class="collection-img">
+                                        <img src="~/Files/StaticContentImages/Image/@Model[4].Image" class="img-fluid bg-img  " alt="banner">
+                                    </div>
+                                    <div class="collection-banner-contain ">
+                                        <div>
+                                            <h3>بهترین تخفیف </h3>
+                                            <h4>@Model[4].Title</h4>
+                                            <a href="/Shop" class="btn btn-rounded btn-xs" tabindex="0">
+                                                شروع خرید
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                
+            }
+        </div>
+    </div>
+</section>

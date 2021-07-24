@@ -1,0 +1,235 @@
+﻿@model IEnumerable<SpadStorePanel.Core.Models.StaticContentDetail>
+@{
+    Layout = "~/Views/Shared/_LayoutD.cshtml";
+}
+@Html.Action("HeaderSection", "Home")
+
+<div class="page-header text-center" style="background-image: url('assets/images/page-header-bg-0.jpg')">
+    <div class="container">
+        <h1 class="page-title">افتخارات </h1>
+    </div><!-- End .container -->
+</div><!-- End .page-header -->
+<nav aria-label="breadcrumb" class="breadcrumb-nav border-0 mb-0">
+    <div class="container">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="index-1.html">خانه</a></li>
+            <li class="breadcrumb-item"><a href="#">صفحات</a></li>
+            <li class="breadcrumb-item active" aria-current="page"></li>افتخارات</li>
+        </ol>
+    </div><!-- End .container -->
+</nav><!-- End .breadcrumb-nav -->
+
+
+<div class="container">
+    <h3 class="text-center py-4">افتخارات <span style="color: #00B4A2;">ما</span></h3>
+    <div class="row d-flex justify-content-center align-items-center">
+        @if (Model!=null)
+        {
+            foreach (var item in Model)
+            {
+                <div class="col-lg-3 col-md-4 col-sm-6">
+                    <!-- Button trigger modal -->
+                    <button type="" class="border-0 p-0 " data-toggle="modal" data-target="#exampleModalLong1">
+
+                        <img src="~/Files/StaticContentImages/Image/@item.Image" alt="honor">
+                    </button>
+
+                    <!-- Modal -->
+                    <div style="top: 0px;" class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog"
+                         aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div style="position: relative;" class="modal-content " style="background: transparent;">
+                                <span class="text-right">
+
+                                    <a style="font-size: 24px;background-color: white; position: absolute; right: 20px; top: 20px; z-index: 2000; padding: 10px;border-radius: 7px;"
+                                       href="" type="" class="badge text-right text-dark fuck" data-dismiss="modal">X</a>
+                                </span>
+
+                                <div id="carouselExampleControls1" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item m-0 active">
+                                            <img class="d-block w-100" src="~/Files/StaticContentImages/Image/@item.Image" alt="First slide">
+                                        </div>
+                                        @*<div class="carousel-item m-0">
+                                            <img class="d-block w-100" src="pic/taghdir4.jpg" alt="Second slide">
+                                        </div>
+                                        <div class="carousel-item m-0">
+                                            <img class="d-block w-100" src="pic/taghdir3.jpg" alt="Third slide">
+                                        </div>
+                                        <div class="carousel-item m-0">
+                                            <img class="d-block w-100" src="pic/taghdir2.jpg" alt="Third slide">
+                                        </div>*@
+                                    </div>
+                                    <a class="carousel-control-prev w-50 " href="#carouselExampleControls1" role="button"
+                                       data-slide="prev">
+                                        <span class="carousel-control-prev-icon ml-2 mr-auto bg-dark"
+                                              aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next w-50" href="#carouselExampleControls1" role="button"
+                                       data-slide="next">
+                                        <span class="carousel-control-next-icon ml-auto mr-2 bg-dark"
+                                              aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        }
+        else
+        {
+    <div class="col-lg-3 col-md-4 col-sm-6">
+        <!-- Button trigger modal -->
+        <button type="" class="border-0 p-0 " data-toggle="modal" data-target="#exampleModalLong1">
+
+            تصویری وجود ندارد
+        </button>
+        
+    </div>
+        }
+
+
+
+    </div>
+    </div>
+
+    </div><!-- End .page-wrapper -->
+    <button id="scroll-top" title="Back to Top"><i class="icon-arrow-up"></i></button>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu-overlay"></div><!-- End .mobil-menu-overlay -->
+
+    <div class="mobile-menu-container mobile-menu-light">
+        @Html.Action("HeaderMobile", "Home")
+    </div><!-- End .mobile-menu-container -->
+    <!-- Sign in / Register Modal -->
+    <div class="modal fade" id="signin-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div style="position: relative;" class="modal-content " style="background: transparent;">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true"><i class="icon-close"></i></span>
+                    </button>
+
+                    <div class="form-box">
+                        <div class="form-tab">
+                            <ul class="nav nav-pills nav-fill nav-border-anim" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="signin-tab" data-toggle="tab" href="#signin"
+                                       role="tab" aria-controls="signin" aria-selected="true">ورود</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="register-tab" data-toggle="tab" href="#register" role="tab"
+                                       aria-controls="register" aria-selected="false">ثبت نام</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="tab-content-5">
+                                <div class="tab-pane fade show active" id="signin" role="tabpanel"
+                                     aria-labelledby="signin-tab">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <label for="singin-email">نام کاربری یا آدرس ایمیل *</label>
+                                            <input type="text" class="form-control" id="singin-email"
+                                                   name="singin-email" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-group">
+                                            <label for="singin-password">رمز عبور *</label>
+                                            <input type="password" class="form-control" id="singin-password"
+                                                   name="singin-password" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-footer">
+                                            <button type="submit" class="btn btn-outline-primary-2">
+                                                <span>ورود</span>
+                                                <i class="icon-long-arrow-left"></i>
+                                            </button>
+
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input"
+                                                       id="signin-remember">
+                                                <label class="custom-control-label" for="signin-remember">
+                                                    مرا به خاطر
+                                                    بسپار
+                                                </label>
+                                            </div><!-- End .custom-checkbox -->
+
+                                            <a href="#" class="forgot-link">فراموشی رمز عبور؟</a>
+                                        </div><!-- End .form-footer -->
+                                    </form>
+                                    <div class="form-choice">
+                                        <p class="text-center">یا ورود با</p>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-g">
+                                                    <i class="icon-google"></i>
+                                                    حساب گوگل
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-f">
+                                                    <i class="icon-facebook-f"></i>
+                                                    حساب فیسبوک
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                        </div><!-- End .row -->
+                                    </div><!-- End .form-choice -->
+                                </div><!-- .End .tab-pane -->
+                                <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                                    <form action="#">
+                                        <div class="form-group">
+                                            <label for="register-email">آدرس ایمیل شما *</label>
+                                            <input type="email" class="form-control" id="register-email"
+                                                   name="register-email" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-group">
+                                            <label for="register-password">رمز عبور *</label>
+                                            <input type="password" class="form-control" id="register-password"
+                                                   name="register-password" required>
+                                        </div><!-- End .form-group -->
+
+                                        <div class="form-footer">
+                                            <button type="submit" class="btn btn-outline-primary-2">
+                                                <span>ثبت نام</span>
+                                                <i class="icon-long-arrow-left"></i>
+                                            </button>
+
+                                            <div class="custom-control custom-checkbox">
+                                                <input type="checkbox" class="custom-control-input" id="register-policy"
+                                                       required>
+                                                <label class="custom-control-label" for="register-policy">
+                                                    با
+                                                    <a href="#">قوانین و مقررات </a>موافقم *
+                                                </label>
+                                            </div><!-- End .custom-checkbox -->
+                                        </div><!-- End .form-footer -->
+                                    </form>
+                                    <div class="form-choice">
+                                        <p class="text-center">یا عضویت با</p>
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login btn-g">
+                                                    <i class="icon-google"></i>
+                                                    حساب گوگل
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                            <div class="col-sm-6">
+                                                <a href="#" class="btn btn-login  btn-f">
+                                                    <i class="icon-facebook-f"></i>
+                                                    حساب فیسبوک
+                                                </a>
+                                            </div><!-- End .col-6 -->
+                                        </div><!-- End .row -->
+                                    </div><!-- End .form-choice -->
+                                </div><!-- .End .tab-pane -->
+                            </div><!-- End .tab-content -->
+                        </div><!-- End .form-tab -->
+                    </div><!-- End .form-box -->
+                </div><!-- End .modal-body -->
+            </div><!-- End .modal-content -->
+        </div><!-- End .modal-dialog -->
+    </div><!-- End .modal -->

@@ -1,0 +1,133 @@
+﻿@model IEnumerable<SpadStorePanel.Infrastructure.Dtos.Product.ProductWithPriceDto>
+@*<div class="product-wrapper-grid product">
+        <div class="row">
+            @if (Model.Count() != 0)
+            {
+                foreach (var item in Model)
+                {
+
+                    <div class="col-xl-3 col-md-4 col-6  col-grid-box">
+                        <div class="product-box">
+                            <div class="product-imgbox">
+                                <div class="product-front">
+                                    <a href="/shop/Detail/@item.Id">
+                                        <img src="~/Files/ProductImages/Image/@item.Image"
+                                             class="img-fluid  " alt="product">
+                                    </a>
+                                </div>
+                                <div class="product-back">
+                                    <a href="/shop/Detail/@item.Id">
+                                        <img src="~/Files/ProductImages/Image/@item.Image"
+                                             class="img-fluid  " alt="product">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="product-detail detail-center detail-inverse">
+                                <div class="detail-title">
+                                    <div class="detail-left">
+                                        <div class="rating-star">
+                                            <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i>
+                                        </div>
+                                        <p>
+                                            @item.ProductGroupName
+                                        </p>
+                                        <p class="hidden" id="ProductGroupId" name="ProductGroupId">@item.ProductGroupId</p>
+                                        <a href="/shop/Detail/@item.Id">
+                                            <h6 class="price-title">
+                                                @item.ShortTitle
+                                            </h6>
+                                        </a>
+                                    </div>
+                                    <div class="detail-right">
+                                        @*<div class="check-price"> @item.PriceAfterDiscount تومان </div>
+                                        <div class="price">
+                                            <div class="price">@item.Price تومان  </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                }
+            }
+
+
+        </div>
+    </div>*@
+
+<p class="woocommerce-result-count">
+    نتیجه جستجو : @ViewBag.TotalCount-@ViewBag.Countproduct
+
+</p>
+<ul class="products columns-3">
+    @if (Model.Count() != 0)
+    {
+        foreach (var item in Model)
+        {
+            <li class="post-5570 product type-product status-publish has-post-thumbnail product_cat-neurosurgery product_tag-cardiology product_tag-neurosurgery product_tag-surgery product_tag-urology first instock sale shipping-taxable purchasable product-type-simple">
+                <div class="item matchHeight" data-mh="ltx-wc-item">
+                    <a href="/shop/Detail/@item.Id">
+                        <div class="image">
+
+                            <span class="onsale">تخفیف</span>
+                            <img width="340" height="340" src="~/Files/ProductImages/Image/@item.Image"
+                                 class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""
+                                 sizes="(max-width: 340px) 100vw, 340px" />
+                        </div>
+                        <h2 class="woocommerce-loop-product__title">@item.ShortTitle</h2>
+                    </a>
+                    <div class="post_content entry-content">امیر آباد یکی از بهترین ها در زمینه فروش آنلاین دارو است</div>
+                    <span class="price">
+                        @*<del>
+                                <span class="woocommerce-Price-amount amount">
+                                    <span class="woocommerce-Price-currencySymbol">90</span>تومان
+                                </span>
+                            </del>*@ <ins>
+                            <span class="woocommerce-Price-amount amount">
+                                <span class="woocommerce-Price-currencySymbol">@item.Price</span>تومان
+                            </span>
+                        </ins>
+                    </span>
+                    @*<a href="/shop/Detail/@item.Id" data-quantity="1"
+                        class="button product_type_simple add_to_cart_button ajax_add_to_cart"
+                        data-product_id="5570" data-product_sku=""
+                        aria-label="Add &ldquo;Aspirin 10 pills&rdquo; to your cart" rel="nofollow">اضافه کردن به سبد خرید</a>*@
+                </div>
+            </li>
+        }
+    }
+</ul>
+
+
+@*<nav class="navigation paging-navigation">
+        <h3 class="screen-reader-text">Posts navigation</h3>
+        <div class="pagination loop-pagination">
+            <a href="#" class="prev page-numbers disabled"></a><span class='page-numbers current'>1</span>
+            <a class='page-numbers' href='#'>2</a>
+            <a class="next page-numbers" href="#"></a>
+        </div>
+    </nav>*@
+
+
+<nav class="navigation paging-navigation">
+    <h3 class="screen-reader-text">Posts navigation</h3>
+    <div class="pagination loop-pagination">
+        @{
+            if (ViewBag.CurrentPage > 1)
+            {
+                <a href="#" onclick="GetGrid(@(ViewBag.CurrentPage-1))" class="prev page-numbers disabled"></a>
+            }
+            for (int i = 1; i <= ViewBag.PageCount; i++)
+            {
+                <a href="#" onclick="GetGrid(@i)" class='@(i == ViewBag.CurrentPage? "page-numbers current":null) page-numbers'>@i</a>
+
+            }
+            if (ViewBag.CurrentPage < ViewBag.PageCount)
+            {
+                <a href="#" onclick="GetGrid(@(ViewBag.CurrentPage+1))" class="next page-numbers"></a>
+
+            }
+        }
+    </div>
+</nav>

@@ -1,0 +1,177 @@
+﻿@model SpadStorePanel.Web.ViewModels.FooterViewModel
+
+
+<section id="ltx-widgets-footer" style="padding-bottom: 120px;">
+    <div class="container">
+        <div class="subscribe-wrapper">
+            <div class="subscribe-block">
+                <section class="vc_section">
+                    <div class="vc_row wpb_row vc_row-fluid">
+                        <div class="wpb_column vc_column_container vc_col-sm-4 vc_hidden-md vc_hidden-sm vc_hidden-xs">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <a class="logo ltx-logo-" href="#"><img style="width: 200px;height: auto;" src="~/Content/client/assets/uploads/2018/11/logo_01-1.png" alt="Holamed WordPress Theme" srcset="//drug Store/wp-content/uploads/2018/11/logo_01-1.png 1x,//drug Store/wp-content/uploads/2018/11/logo_01_2x.png 2x"></a>
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper">
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper">
+                                            <script>
+    (function () {
+                                                    if (!window.mc4wp) {
+                                                        window.mc4wp = {
+                                                            listeners: [],
+                                                            forms: {
+                                                                on: function (event, callback) {
+                                                                    window.mc4wp.listeners.push({
+                                                                        event: event,
+                                                                        callback: callback
+                                                                    });
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                })();
+                                            </script>
+                                            <!-- MailChimp for WordPress v4.2.5 - https://wordpress.org/plugins/mailchimp-for-wp/ -->
+                                           <form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-806" method="post" data-id="806" data-name="Subscribe Form">
+                                                <div class="mc4wp-form-fields">
+                                                    <div class="input-group">
+                                                        <span class="input-group-append">
+                                                            <button class="btn btn-main color-hover-gray" type="button" id="ButtonEmail" onclick="ButtonEmail()">ارسال</button>
+                                                        </span>
+                                                        <input type="email" name="emailSub" id="emailSub" class="footer-inpt text-right" placeholder="ایمیل را وارد کنید" required="">
+
+
+                                                    </div>
+                                                </div>
+                                                <label style="display: none !important;">
+                                                    Leave this field empty if
+                                                    you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off">
+                                                </label><input type="hidden" name="_mc4wp_timestamp" value="1615197008"><input type="hidden" name="_mc4wp_form_id" value="806"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1">
+                                                <div class="mc4wp-response"></div>
+                                            </form><!-- / MailChimp for WordPress Plugin -->
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wpb_column vc_column_container vc_col-sm-6 vc_col-lg-4 vc_hidden-xs text-align-right-lg">
+                            <div class="vc_column-inner">
+                                <div class="wpb_wrapper">
+                                    <div class="wpb_text_column wpb_content_element ">
+                                        <div class="wpb_wrapper text-left-imp">
+                                            <div class="ltx-social ltx-nav-second">
+                                                <span class="header"><span>ما را دنبال کنید</span></span>
+                                                <ul>
+                                                    @Html.Action("SocialNetwork", "Home")
+                                                </ul>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 col-ms-12   matchHeight clearfix" style="height: 454px;">
+                <div class="footer-widget-area">
+                    <div id="text-10" class="widget widget_text">
+                        <h4 class="header-widget">درباره ما</h4>
+                        <div class="textwidget">
+                            <p>
+                                @Html.Raw(Model.ConstText)
+                            </p>
+                        </div>
+                    </div>
+                    <div id="ltx_icons-3" class="widget widget_ltx_icons">
+                        <ul class="social-icons-list">
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-phone"></span><strong> تلفن : </strong>@Html.Raw(Model.Phone)
+                                    508-38-01
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-map-marker"></span><strong> آدرس : </strong> @Html.Raw(Model.Address)
+                                    میدان آزادی
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="fa fa-clock-o"></span><strong> ساعت کاری </strong> @Html.Raw(Model.WorkTime)
+                                    بعد از ظهر
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 col-ms-12 hidden-xs hidden-ms hidden-sm hidden-md matchHeight clearfix" style="height: 454px;">
+                <div class="footer-widget-area">
+                    <div id="ltx_navmenu-4" class="widget widget_ltx_navmenu">
+                        <h4 class="header-widget">لینک ها</h4>
+                        <div class="menu-main-menu-container">
+                            <ul id="menu-main-menu-1" class="menu">
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-5151 current_page_item current-menu-ancestor current-menu-parent current_page_ancestor menu-item-has-children menu-item-6137">
+                                    @Html.ActionLink("خانه", "Index", "Home")
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3557">
+
+                                    @Html.ActionLink("درباره ما", "Index", "AboutUs")
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-619">
+
+                                    @Html.ActionLink("محصولات", "Index", "Shop")
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-59">
+
+                                    @Html.ActionLink("بلاگ", "Index", "Blog")
+                                </li>
+                                <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-60">
+
+                                    @Html.ActionLink("گالری", "Gallery", "Home")
+                                </li>
+                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+
+                                    @Html.ActionLink("تماس با ما", "Index", "CantactForm")
+                                </li>
+                                @*<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-has-mega-menu menu-item-61">
+
+                                    @Html.ActionLink("نظرات", "Testimonials", "Home")
+                                </li>*@
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            @Html.Action("BlogFooter", "Home")
+          
+        </div>
+    </div>
+   
+</section>
+
+<footer class="copyright-block copyright-layout-default">
+    <div class="container">
+        <p>
+            © طراحی شده توسط <a href="https://www.spad.co/">اسپاد</a>
+        </p>
+    </div>
+</footer>

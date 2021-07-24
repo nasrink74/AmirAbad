@@ -1,0 +1,64 @@
+﻿@model IEnumerable<SpadStorePanel.Infrastructure.Dtos.Product.ProductWithPriceDto>
+@{
+    ViewBag.Title = "Gallery";
+    Layout = "~/Views/Shared/_LayoutD.cshtml";
+}
+
+<div id="preloader"></div>
+<!--Header-->
+@Html.Action("HeaderSection", "Home")
+@Html.Action("ProductGroup", "Home")
+<!--End Header-->
+<header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs">
+    <div class="container">
+        <h1>گالری</h1>
+        <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+            <!-- Breadcrumb NavXT 6.2.1 -->
+            <li class="home">
+                <span property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage"
+                       title="Go to Home." href="index.html"
+                       class="home"><span property="name">خانه</span></a><meta property="position" content="1">
+                </span>
+            </li>
+            <li class="post post-gallery current-item">
+                <span property="itemListElement" typeof="ListItem">
+                    <span property="name">گالری</span><meta property="position" content="3">
+                </span>
+            </li>
+        </ul>
+    </div>
+</header>
+<div class="container main-wrapper">
+    <div class="margin-default">
+        <div class="gallery-page gallery-inner " style="height:auto !important;">
+            <div class="container">
+
+                <div class="row">
+
+                    @foreach (var item in Model)
+                    {
+                        <div class="col-lg-4 col-md-4 col-sm-6 col-ms-6 mb-3 mynewgrid" style="height:300px;">
+                            <div class="item" style="height:300px;">
+                                <a href="/shop/Detail/@item.Id" style="height:90%;" class="swipebox photo">
+                                    <img style="height:100%;width:100%;" src="~/Files/ProductImages/Image/@item.Image"
+                                         class="attachment-holamed-gallery size-holamed-gallery" alt=""
+                                          /><span class="fa fa-search"></span>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    }
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+

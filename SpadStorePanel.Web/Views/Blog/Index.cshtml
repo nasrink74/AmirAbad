@@ -1,0 +1,136 @@
+﻿@model IEnumerable<SpadStorePanel.Web.ViewModels.ArticleListViewModel>
+@{
+    Layout = "~/Views/Shared/_LayoutD.cshtml";
+}
+
+<div id="preloader"></div>
+<!--Header-->
+@Html.Action("HeaderSection", "Home")
+@Html.Action("ProductGroup", "Home")
+<!--End Header-->
+<header class="page-header   header-h1  header-parallax ltx-parallax  hasBreadcrumbs">
+    <div class="container">
+        <h1>بلاگ</h1>
+        <ul class="breadcrumbs" typeof="BreadcrumbList" vocab="https://schema.org/">
+            <!-- Breadcrumb NavXT 6.2.1 -->
+            <li class="home">
+                <span property="itemListElement" typeof="ListItem">
+                    <a property="item" typeof="WebPage"
+                       title="Go to Home."
+                       href="index.html"
+                       class="home"><span property="name">خانه</span></a><meta property="position" content="1">
+                </span>
+            </li>
+            <li class="post post-page current-item">
+                <span property="itemListElement" typeof="ListItem">
+                    <span property="name">بلاگ</span><meta property="position" content="2">
+                </span>
+            </li>
+        </ul>
+    </div>
+</header>
+<div class="container main-wrapper">
+    <div class="inner-page margin-default">
+        <div class="row with-sidebar">
+            <div class="col-xl-8 col-lg-8 col-md-12 col-xs-12 ltx-blog-wrap float-left">
+                <div class="blog blog-block layout-classic">
+                    <div class="row ">
+                        @if (Model.Count() != 0)
+                        {
+                            foreach (var item in Model)
+                            {
+                                <div class="col-lg-12 col-xs-12 div-thumbnail">
+                                    <article id="post-6615"
+                                             class="post-6615 post type-post status-publish format-standard has-post-thumbnail hentry category-cardiology category-surgery tag-cardiology tag-food tag-health tag-neurosurgery">
+                                        <a href="/Blog/BlogDetail/@item.Id"
+                                           class="photo">
+                                            <img style="height: 800px;" width="770" height="535"
+                                                 src="~/Files/ArticleImages/Image/@item.Image"
+                                                 class="attachment-post-thumbnail size-post-thumbnail wp-post-image"
+                                                 alt=""
+                                                 sizes="(max-width: 770px) 100vw, 770px" />
+                                        </a><span class="ltx-cats"><a href="/Blog/BlogDetail/@item.Id">@item.Title</a></span>
+                                        <div class="description">
+                                            <a href="/Blog/BlogDetail/@item.Id"
+                                               class="header"><h3>هر آنچه باید درباره ما بدانید</h3></a>
+                                            <div class="blog-info">
+                                                <ul>
+                                                    <li class="ltx-icon-date">
+                                                        <a href="/Blog/BlogDetail/@item.Id"
+                                                           class="ltx-date"><span class="fa fa-clock-o"></span><span class="dt">@item.PersianDate</span></a>
+                                                    </li>
+                                                    @*<li class="ltx-icon-fav">
+                                                <span class="fa fa-eye"></span><i>1</i>
+                                            </li>*@
+                                                    <li class="ltx-icon-comments">
+                                                        <span class="fa fa-comments"></span><i>@item.CountVoute</i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </article>
+                                </div>
+                            }
+
+                        }
+
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                @if (ViewBag.PageCount > 1)
+                {
+
+
+                <nav class="navigation paging-navigation">
+                    <h3 class="screen-reader-text">Posts navigation</h3>
+                    <div class="pagination loop-pagination">
+                        @if (ViewBag.PageID > 1)
+                        {
+                            <a href="?page=@(ViewBag.PageID-1)" class="prev page-numbers disabled"></a>@*<span class='page-numbers current'></span>*@
+                        }
+
+                        @for (int i = 1; i <= ViewBag.PageCount; i++)
+                        {
+                            <a class="page-numbers @(((int)ViewBag.PageID == i) ? "current" : "")" href="?page=@i">@i</a>
+                         
+                            }
+
+                            @if (ViewBag.PageID < ViewBag.PageCount)
+                            {
+                                <a class="next page-numbers" href="?page=@(ViewBag.PageID+1)"></a>
+                            }
+
+                        </div>
+                </nav>
+                 }
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-xs-12 div-sidebar float-left">
+                <div id="content-sidebar" class="content-sidebar widget-area" role="complementary">
+                    <aside id="categories-3" class="widget widget_categories">
+                        <h3 class="header-widget">دسته بندی ها</h3>
+                        <ul>
+                            @Html.Action("CategoryBlog","Blog")
+                        </ul>
+                    </aside>
+                    <aside id="ltx_blogposts-10" class="widget widget_ltx_blogposts">
+                        <h3 class="header-widget">
+                            پست های مجبوب
+                        </h3>
+                        <div class="items">
+                            @Html.Action("PopularBlog", "Blog")             
+                        </div>
+                    </aside>
+                    <aside id="tag_cloud-5" class="widget widget_tag_cloud">
+                        <h3 class="header-widget">تگ ها</h3>
+                        <div class="tagcloud">
+                            @Html.Action("BlogTags","Blog")
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

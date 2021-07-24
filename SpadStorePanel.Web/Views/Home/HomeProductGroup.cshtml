@@ -1,0 +1,121 @@
+﻿@model IEnumerable<SpadStorePanel.Core.Models.ProductGroup>
+
+<div id="nav-wrapper" class="navbar-layout-transparent">
+    <nav class="navbar " data-spy="" data-offset-top="0">
+        <div class=" container">
+
+            <div class="navbar-logo ">
+                <a class="logo ltx-logo-" href="#">
+                    <img src="~/Content/client/assets/uploads/2018/11/logo_01-1.png"
+                         alt="Holamed WordPress Theme"
+                         srcset="//drug Store/wp-content/uploads/2018/11/logo_01-1.png 1x,//drug Store/wp-content/uploads/2018/11/logo_01_2x.png 2x">
+                </a><a class="logo ltx-logo-white" href="#">
+                    <img src="~/Content/client/assets/uploads/2018/11/logo_02-1.png"
+                         alt="Holamed WordPress Theme"
+                         srcset="//drug Store/wp-content/uploads/2018/11/logo_02-1.png 1x,//drug Store/wp-content/uploads/2018/11/logo_02_2x.png 2x">
+                </a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse" data-mobile-screen-width="1600">
+                <div class="toggle-wrap">
+                    <a class="logo ltx-logo-white" href="#">
+                        <img src="~/Content/client/assets/uploads/2018/11/logo_02-1.png"
+                             alt="Holamed WordPress Theme"
+                             srcset="drug Store/wp-content/uploads/2018/11/logo_02-1.png 1x,drug Store/wp-content/uploads/2018/11/logo_02_2x.png 2x">
+                    </a>
+                    <button type="button" class="navbar-toggle collapsed">
+                        <span class="close"><span class="fa fa-close"></span></span>
+                    </button>
+                    <div class="clearfix"></div>
+                </div>
+                <ul id="menu-main-menu" class="nav navbar-nav">
+                    <li id="menu-item-407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+                        <a href="/Home/Index"><span>خانه</span></a>
+                    </li>
+                    <li id="menu-item-409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+                        <a href="/Blog/Index"><span>بلاگ</span></a>
+                    </li>
+
+                    @if (Model != null)
+                    {
+                        foreach (var item in Model)
+                        {
+
+                            <li id="menu-item-411" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+                                <a href="/Shop/Index/@item.Id"><span>@item.Title</span></a>
+                            </li>
+
+                        }
+                    }
+
+                    <li id="menu-item-412" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+                        <a href="/Home/Gallery"><span>گالری</span></a>
+                    </li>
+
+                    <li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+                        <a href="/AboutUs/Index"><span>درباره ما</span></a>
+                    </li>
+                    <li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+                        <a href="/CantactForm/Index"><span>تماس با ما</span></a>
+                    </li>
+                    <li id="menu-item-420"
+                        class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+                        <a href="/Cookie/CardShow"><span>سبد خرید</span></a>
+                    </li>
+                    @if (Request.IsAuthenticated)
+                    {
+                        <li id="menu-item-421"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+                            <a href="/Account/LogOff2"><span>خروج</span></a>
+                        </li>
+                        <li id="menu-item-421"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+                            <a href="/Admin/Dashboard"><span>حساب کاربری</span></a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li id="menu-item-421"
+                            class="menu-item menu-item-type-post_type menu-item-object-page menu-item-46">
+                            <a href="/Account/Login"><span>ورود</span></a>
+                        </li>
+                    }
+                </ul>
+                <div class="mobile-controls">
+                    <div>
+                        <ul>
+                            <li class="ltx-fa-icon ltx-nav-profile menu-item-has-children ">
+                                <a href="/Account/Login">
+                                    <span class="fa icon icon-user"></span>
+                                </a>
+                            </li>
+                            @*<li class="ltx-fa-icon ltx-nav-search  ">
+                                    <div class="top-search">
+                                        <a href="#" id="top-search-ico-mobile" class="top-search-ico entypo entypo-search"
+                                           aria-hidden="true"></a>
+
+                                        <input placeholder="Search" value="" type="text">
+                                    </div>
+                                </li>
+                                <li class="ltx-fa-icon ltx-nav-cart ">
+                                    <div class="cart-navbar">
+                                        <a href="checkout.html" class="ltx-cart cart shop_table"
+                                           title="View your shopping cart">
+                                            <span class="cart-contents header-cart-count count">0</span><i class="fa icon icon-shoping" aria-hidden="true"></i>
+                                        </a>
+                                    </div>
+                                </li>*@
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="navbar-controls">
+                <button type="button" class="navbar-toggle collapsed">
+                    <span class="icon-bar top-bar"></span>
+                    <span class="icon-bar middle-bar"></span>
+                    <span class="icon-bar bottom-bar"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+</div>

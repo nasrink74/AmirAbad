@@ -1,0 +1,65 @@
+﻿@model IEnumerable<SpadStorePanel.Infrastructure.Dtos.Product.ProductWithPriceDto>
+<section class="section-big-pb-space ratio_asos product">
+    <div class="custom-container">
+        <div class="row">
+            <div class="col pr-0">
+                <div class="product-slide-5 product-m no-arrow">
+                    @if (Model.Count() != 0)
+                    {
+                        foreach (var item in Model)
+                        {
+                            <div>
+                                <div class="product-box product-box2">
+                                    <div class="product-imgbox">
+                                        <div class="product-front">
+                                            <a href="/Shop/Detail/@item.Id">
+                                                <img src="~/Files/ProductImages/Image/@item.Image" class="img-fluid" alt="product">
+                                            </a>
+                                        </div>
+                                        <div class="product-back">
+                                            <a href="/Shop/Detail/@item.Id">
+                                                <img src="~/Files/ProductImages/Image/@item.Image" class="img-fluid" alt="product">
+                                            </a>
+                                        </div>
+                                        @*<div class="product-icon icon-inline">
+                                                <a href="product-page(no-sidebar).html" class="tooltip-top " data-tippy-content="دیدن محصول">
+                                                    <i data-feather="shopping-cart"></i>
+                                                </a>
+
+
+
+                                            </div>*@
+                                        <div class="new-label1">
+                                            <div>جدید</div>
+                                        </div>
+                                        <div class="on-sale1">
+                                            فروش ویژه
+                                        </div>
+                                    </div>
+                                    <div class="product-detail product-detail2 ">
+                                        <ul>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star"></i></li>
+                                            <li><i class="fa fa-star-o"></i></li>
+                                        </ul>
+                                        <a href="#">
+                                            <h3>@item.ShortTitle</h3>
+                                        </a>
+                                        <h5>
+                                            @item.Price تومان
+                                            @*<span>
+                                                    80,000 تومان
+                                                </span>*@
+                                        </h5>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
